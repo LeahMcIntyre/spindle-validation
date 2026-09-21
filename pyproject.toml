@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spindle-validation"
+version = "0.1.0"
+description = "Two-rater validation of SPINDLE sleep staging plus reclassification"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["lib*"]

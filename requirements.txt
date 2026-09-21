@@ -1,0 +1,4 @@
+# Assumes the ebb repo (provides `ebb` and `ebb_viewer`) is cloned as a
+# sibling directory; adjust the path if your layout differs.
+-e ../ebb
+-e .
