@@ -100,7 +100,8 @@ Every recorded row carries `algorithm_rawstate` (SPINDLE), `algorithm_gapfill_st
 if that file's bout-count increase didn't trigger the gate, not a
 repeat of the gap-fill value). Transition rows additionally carry
 `algorithm_pre_state`/`algorithm_post_state` (the final-state
-transition being judged) and, only for the "wrong states" verdict,
+transition being judged) and, for the "wrong states" verdict (required)
+or "No transition" (optional -- what the states really were),
 `corrected_pre_state`/`corrected_post_state`.
 
 ### Two raters, split not duplicated; reconcile is always sighted
@@ -173,7 +174,8 @@ underscores) so a combined file stays easy to filter/split later
 without string-parsing. Periodic rows leave
 `algorithm_pre_state`/`post_state`/`corrected_*` blank (no transition
 concept there); transition rows leave `corrected_*` blank unless the
-verdict was `Transition (wrong states)`.
+verdict was `Transition (wrong states)` (dropdowns required) or `No
+transition` (dropdowns optional, recorded only if set).
 
 `results/reconciled.csv` — `RECONCILE_FIELDS`: `target_id, dataset,
 animal_id, epoch_idx, source_mode, original_annotator,

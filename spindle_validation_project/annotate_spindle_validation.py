@@ -78,8 +78,9 @@ file's bout-count-increase didn't trigger the gate; see
 `emg_gate_applicable` in targets/*.csv). Transition rows additionally
 get `algorithm_pre_state`/`algorithm_post_state` (the final-pipeline
 transition the target represents) and, only when the "wrong states"
-verdict is used, `corrected_pre_state`/`corrected_post_state` (from the
-two dropdowns).
+verdict is used (required) or optionally with "No transition" to say
+what the states really were, `corrected_pre_state`/`corrected_post_state`
+(from the two dropdowns).
 
 RESULTS STORAGE: one append-only CSV per rater per mode
 (results/periodic_A.csv, results/periodic_B.csv,
@@ -149,7 +150,7 @@ from ebb_viewer.edf_viewer.masks import Mask
 # ---- session config: edit these, then rerun ----
 MODE = "transition"  # "periodic" | "transition" | "reconcile"
 RATER = "A"
-FILE = ("PHP_pre", "CW0DI1")  # (dataset, animal_id) -- the one file this session works on, any MODE
+FILE = ("PHP_pre", "CW0DA1")  # (dataset, animal_id) -- the one file this session works on, any MODE
 RECONCILED_BY = "A+B"         # used when MODE == "reconcile"
 HIDE_DEFAULT_MASKS = True     # commutator/sd/spindle_noise off at launch -- see module docstring
 # --------------------------------------------------
@@ -176,6 +177,10 @@ RECONCILE_FIELDS = [
 VERDICTS = ["Wake", "NREM", "REM", "Unsure"]
 TRANSITION_WRONG_STATES_VERDICT = "Transition (wrong states)"
 TRANSITION_VERDICTS = ["Transition", "No transition", TRANSITION_WRONG_STATES_VERDICT, "Unsure"]
+# Verdicts that record the "Actually: from -> to" dropdowns. Required for
+# wrong-states; optional for "No transition" (e.g. what the states really
+# were, such as NREM -> NREM) -- left blank if not set.
+CORRECTED_STATE_VERDICTS = ("No transition", TRANSITION_WRONG_STATES_VERDICT)
 CORRECTED_STATE_OPTIONS = ["", "Wake", "NREM", "REM"]  # "" = not set (dropdown left untouched)
 BACK_KEY = "0"
 FS = 250
@@ -793,8 +798,8 @@ class AnnotationPanel(QtWidgets.QWidget):
         row = t.epoch_row
         note = self.note_edit.text().strip()
         now = datetime.now().isoformat(timespec="seconds")
-        corrected_from = self.corrected_from_combo.currentText() if verdict == TRANSITION_WRONG_STATES_VERDICT else ""
-        corrected_to = self.corrected_to_combo.currentText() if verdict == TRANSITION_WRONG_STATES_VERDICT else ""
+        corrected_from = self.corrected_from_combo.currentText() if verdict in CORRECTED_STATE_VERDICTS else ""
+        corrected_to = self.corrected_to_combo.currentText() if verdict in CORRECTED_STATE_VERDICTS else ""
 
         if self.mode == "reconcile":
             orig = self._latest_original_row(t)
@@ -845,7 +850,7 @@ class AnnotationPanel(QtWidgets.QWidget):
             if t.source_mode == "transition":
                 record["algorithm_pre_state"] = t.pre_state
                 record["algorithm_post_state"] = t.post_state
-            if verdict == TRANSITION_WRONG_STATES_VERDICT:
+            if verdict in CORRECTED_STATE_VERDICTS:
                 record["corrected_pre_state"] = corrected_from
                 record["corrected_post_state"] = corrected_to
             with t.results_csv.open("a", newline="") as f:
@@ -861,7 +866,7 @@ class AnnotationPanel(QtWidgets.QWidget):
             self.resolved_keys.add(t.key)
             self.unsure_keys.discard(t.key)
 
-        corrected_desc = f" (actually {corrected_from} → {corrected_to})" if verdict == TRANSITION_WRONG_STATES_VERDICT else ""
+        corrected_desc = f" (actually {corrected_from or '?'} → {corrected_to or '?'})" if (corrected_from or corrected_to) else ""
         self.reveal_label.setText(
             f"{t.target_id} epoch {t.epoch_idx}: {verdict}{corrected_desc}"
             f" — algorithm said {row['final_state']}"
