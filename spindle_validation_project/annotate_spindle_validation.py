@@ -148,9 +148,9 @@ from ebb_viewer.edf_viewer.eeg_viewer import launch_edf_window
 from ebb_viewer.edf_viewer.masks import Mask
 
 # ---- session config: edit these, then rerun ----
-MODE = "transition"  # "periodic" | "transition" | "reconcile"
+MODE = "periodic"  # "periodic" | "transition" | "reconcile"
 RATER = "A"
-FILE = ("PHP_pre", "CW0DA1")  # (dataset, animal_id) -- the one file this session works on, any MODE
+FILE = ("PHP_pre", "CW0DO4")  # (dataset, animal_id) -- the one file this session works on, any MODE
 RECONCILED_BY = "A+B"         # used when MODE == "reconcile"
 HIDE_DEFAULT_MASKS = True     # commutator/sd/spindle_noise off at launch -- see module docstring
 # --------------------------------------------------
@@ -626,7 +626,6 @@ class AnnotationPanel(QtWidgets.QWidget):
         layout.addWidget(self.corrected_widget)
         layout.addLayout(back_row)
         layout.addWidget(self.note_edit)
-        layout.addWidget(QtWidgets.QLabel("Last recorded (not the one above):"))
         layout.addWidget(self.reveal_label)
 
         self.resize(330, 320)
@@ -866,12 +865,7 @@ class AnnotationPanel(QtWidgets.QWidget):
             self.resolved_keys.add(t.key)
             self.unsure_keys.discard(t.key)
 
-        corrected_desc = f" (actually {corrected_from or '?'} → {corrected_to or '?'})" if (corrected_from or corrected_to) else ""
-        self.reveal_label.setText(
-            f"{t.target_id} epoch {t.epoch_idx}: {verdict}{corrected_desc}"
-            f" — algorithm said {row['final_state']}"
-            f"{f' — note: {note}' if note else ''}"
-        )
+        self.reveal_label.setText("")
         self.note_edit.clear()
 
         self.cursor += 1
@@ -883,15 +877,27 @@ class AnnotationPanel(QtWidgets.QWidget):
             return
         self.cursor -= 1
         t = self._current_target()
-        note = self._delete_result(t)
+        prev = self._delete_result(t)
         self.resolved_keys.discard(t.key)
         self.unsure_keys.discard(t.key)
-        self.reveal_label.setText("(went back — previous verdict removed, re-mark this)")
-        self.note_edit.setText(note)
-        self._show_current()
+        self._show_current()  # resets the dropdowns, so restore them after
+        self.note_edit.setText(prev.get("note", ""))
+        if prev.get("corrected_pre"):
+            self.corrected_from_combo.setCurrentText(prev["corrected_pre"])
+        if prev.get("corrected_post"):
+            self.corrected_to_combo.setCurrentText(prev["corrected_post"])
+        if prev.get("verdict"):
+            actually = (
+                f" (actually {prev.get('corrected_pre') or '?'} → {prev.get('corrected_post') or '?'})"
+                if (prev.get("corrected_pre") or prev.get("corrected_post"))
+                else ""
+            )
+            self.reveal_label.setText(f"Went back — you had marked: {prev['verdict']}{actually}. Re-mark this epoch.")
+        else:
+            self.reveal_label.setText("Went back — nothing was recorded for this epoch yet.")
         self.setFocus()
 
-    def _delete_result(self, t: Target) -> str:
+    def _delete_result(self, t: Target) -> dict:
         """Removes only the MOST RECENT row for (t.target_id,
         t.epoch_idx) from its results CSV (or reconciled.csv in
         reconcile mode), if present -- other targets' rows sharing that
@@ -900,27 +906,31 @@ class AnnotationPanel(QtWidgets.QWidget):
         history elsewhere in this tool -- e.g. an epoch re-recorded
         after an earlier "Unsure" pass -- so Back should undo the one
         action just taken, not erase that whole history). Returns the
-        deleted row's note."""
+        deleted row's note, verdict and corrected states (empty dict if
+        there was nothing to delete), so Back can show what was marked."""
         path = RECONCILED_CSV if self.mode == "reconcile" else t.results_csv
         if not path.exists():
-            return ""
+            return {}
         df = pd.read_csv(path)
         mask = (df["target_id"] == t.target_id) & (df["epoch_idx"] == t.epoch_idx)
         matching = df.index[mask]
         if len(matching) == 0:
-            return ""
+            return {}
         last_idx = matching[-1]
-        note = ""
-        if "notes" in df.columns:
-            last_note = df.loc[last_idx, "notes"]
-            note = "" if pd.isna(last_note) else str(last_note)
+        last = df.loc[last_idx].fillna("")
+        prev = {
+            "note": str(last.get("notes", "")),
+            "verdict": str(last.get("reconciled_verdict" if self.mode == "reconcile" else "human_verdict", "")),
+            "corrected_pre": str(last.get("corrected_pre_state", "")),
+            "corrected_post": str(last.get("corrected_post_state", "")),
+        }
         # Write-then-rename, not a direct overwrite -- if this process
         # gets killed mid-write, the live file is untouched (the
         # incomplete .tmp is just orphaned) instead of left half-written.
         tmp_path = path.with_suffix(path.suffix + ".tmp")
         df.drop(index=last_idx).to_csv(tmp_path, index=False)
         tmp_path.replace(path)
-        return note
+        return prev
 
 
 def main() -> None:
