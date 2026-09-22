@@ -1,0 +1,2 @@
+target_id,dataset,animal_id,epoch_idx,epoch_start_sec,clock_time,algorithm_rawstate,algorithm_gapfill_state,algorithm_emg_gate_state,algorithm_is_artifact,algorithm_pre_state,algorithm_post_state,corrected_pre_state,corrected_post_state,human_verdict,notes,annotator,annotated_at
+
