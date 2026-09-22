@@ -1,2 +1,4 @@
 target_id,dataset,animal_id,epoch_idx,epoch_start_sec,clock_time,algorithm_rawstate,algorithm_gapfill_state,algorithm_emg_gate_state,algorithm_is_artifact,algorithm_pre_state,algorithm_post_state,corrected_pre_state,corrected_post_state,human_verdict,notes,annotator,annotated_at
 
+PHP_pre_CW0DA1_p02,PHP_pre,CW0DA1,9308,37232,2020-02-29T22:54:48,NREM,Wake,,True,,,,,Wake,,B,2026-09-22T12:53:15
+PHP_pre_CW0DA1_p02,PHP_pre,CW0DA1,9309,37236,2020-02-29T22:54:52,NREM,Wake,,True,,,,,Wake,,B,2026-09-22T12:53:16
