@@ -148,9 +148,9 @@ from ebb_viewer.edf_viewer.eeg_viewer import launch_edf_window
 from ebb_viewer.edf_viewer.masks import Mask
 
 # ---- session config: edit these, then rerun ----
-MODE = "periodic"  # "periodic" | "transition" | "reconcile"
-RATER = "A"
-FILE = ("PHP_pre", "CW0DO4")  # (dataset, animal_id) -- the one file this session works on, any MODE
+MODE = "transition_review"  # "periodic" | "transition" | "reconcile"
+RATER = "B"
+FILE = ("RNA_KO", "Mice-1258")  # (dataset, animal_id) -- the one file this session works on, any MODE
 RECONCILED_BY = "A+B"         # used when MODE == "reconcile"
 HIDE_DEFAULT_MASKS = True     # commutator/sd/spindle_noise off at launch -- see module docstring
 # --------------------------------------------------
