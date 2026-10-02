@@ -101,3 +101,415 @@ PHP_pre_CW0DI1_t039_nrem_to_wake,PHP_pre,CW0DI1,59549,transition,A,Unsure,Transi
 PHP_pre_CW0DI1_t041_nrem_to_wake,PHP_pre,CW0DI1,61384,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-09-21T15:01:56
 PHP_pre_CW0DI1_t042_nrem_to_wake,PHP_pre,CW0DI1,62458,transition,A,Unsure,Transition,,,A+B,,2026-09-21T14:16:56
 PHP_pre_CW0DI1_t042_wake_to_nrem,PHP_pre,CW0DI1,62628,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-09-21T15:02:14
+vgat_JK1011_p08,vgat,JK1011,30594,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:08:51
+vgat_JK1011_p08,vgat,JK1011,30601,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:09:15
+vgat_JK1011_p08,vgat,JK1011,30602,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:11:34
+vgat_JK1011_p08,vgat,JK1011,30620,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:12:03
+vgat_JK1011_p09,vgat,JK1011,34037,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:12:12
+vgat_JK1011_p09,vgat,JK1011,34038,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:13:56
+vgat_JK1011_p09,vgat,JK1011,34039,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:14:07
+vgat_JK1011_p09,vgat,JK1011,34040,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:14:20
+vgat_JK1011_p09,vgat,JK1011,34062,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:14:54
+vgat_JK1011_p09,vgat,JK1011,34063,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:15:50
+vgat_JK1011_p09,vgat,JK1011,34069,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:16:00
+vgat_JK1011_p10,vgat,JK1011,37757,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:17:14
+vgat_JK1011_p11,vgat,JK1011,42111,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:17:18
+vgat_JK1011_p11,vgat,JK1011,42124,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:17:23
+vgat_JK1011_p13,vgat,JK1011,46879,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:17:30
+vgat_JK1011_p13,vgat,JK1011,46880,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:17:36
+vgat_JK1011_p13,vgat,JK1011,46881,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:17:48
+vgat_JK1011_p15,vgat,JK1011,57254,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:01
+vgat_JK1011_p15,vgat,JK1011,57264,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:23
+vgat_JK1011_p15,vgat,JK1011,57265,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:34
+vgat_JK1011_p15,vgat,JK1011,57266,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:40
+vgat_JK1011_p15,vgat,JK1011,57267,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:43
+vgat_JK1011_p17,vgat,JK1011,62987,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:48
+vgat_JK1011_p17,vgat,JK1011,62988,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:51
+vgat_JK1011_p17,vgat,JK1011,62989,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:53
+vgat_JK1011_p17,vgat,JK1011,62990,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:19:55
+vgat_JK1011_p17,vgat,JK1011,62992,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:21:55
+vgat_JK1011_p17,vgat,JK1011,62998,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:22:11
+vgat_JK1011_t009_wake_to_nrem,vgat,JK1011,15684,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:22:37
+vgat_JK1011_t024_wake_to_nrem,vgat,JK1011,36608,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:23:32
+vgat_JK1011_t027_wake_to_nrem,vgat,JK1011,40341,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:24:57
+vgat_JK1011_t035_wake_to_nrem,vgat,JK1011,52158,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:25:17
+vgat_JK1011_t036_nrem_to_wake,vgat,JK1011,52198,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:25:54
+vgat_JK1011_t042_wake_to_nrem,vgat,JK1011,62193,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:26:03
+vgat_JK1011_t043_wake_to_nrem,vgat,JK1011,63641,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:26:18
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45681,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:32:13
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45682,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:32:18
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45683,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:32:21
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45684,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:33:19
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45685,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:33:42
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45686,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:33:52
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45687,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:34:06
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45688,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:34:15
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45689,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:34:22
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45690,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:34:27
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45691,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:34:30
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45692,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:34:32
+PHP_pre_CW0DN2_p12,PHP_pre,CW0DN2,45693,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:34:37
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63183,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:35:56
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63184,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:35:58
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63185,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:36:02
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63186,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:36:04
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63187,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:36:31
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63188,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:37:20
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63189,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:37:30
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63190,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:37:32
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63191,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:37:34
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63192,periodic,A,Unsure,REM,,,A+B,,2026-10-01T09:37:36
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63194,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:38:37
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63207,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:39:04
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63212,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:39:11
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63219,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:39:13
+PHP_pre_CW0DN2_p17,PHP_pre,CW0DN2,63220,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:39:15
+PHP_pre_CW0DN2_t007_wake_to_nrem,PHP_pre,CW0DN2,7879,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:39:30
+PHP_pre_CW0DN2_t011_wake_to_nrem,PHP_pre,CW0DN2,16054,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:40:55
+PHP_pre_CW0DN2_t015_nrem_to_wake,PHP_pre,CW0DN2,19863,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:41:04
+PHP_pre_CW0DN2_t003_rem_involving,PHP_pre,CW0DN2,22349,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:41:35
+PHP_pre_CW0DN2_t019_nrem_to_wake,PHP_pre,CW0DN2,24421,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:41:43
+PHP_pre_CW0DN2_t009_rem_involving,PHP_pre,CW0DN2,64784,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:42:11
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1710,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:45:38
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1711,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:45:47
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1712,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:45:49
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1713,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:45:52
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1714,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:45:55
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1715,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:45:56
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1716,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:45:58
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1717,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:46:00
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1718,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:46:01
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1719,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:46:03
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1720,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:46:05
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1721,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:46:06
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1722,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:46:19
+PHP_6_week_CW0DI1_p00,PHP_6_week,CW0DI1,1754,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:46:24
+PHP_6_week_CW0DI1_p01,PHP_6_week,CW0DI1,4703,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:47:43
+PHP_6_week_CW0DI1_p01,PHP_6_week,CW0DI1,4704,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:47:49
+PHP_6_week_CW0DI1_p04,PHP_6_week,CW0DI1,15761,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:47:56
+PHP_6_week_CW0DI1_p04,PHP_6_week,CW0DI1,15787,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:48:01
+PHP_6_week_CW0DI1_p04,PHP_6_week,CW0DI1,15788,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:48:07
+PHP_6_week_CW0DI1_p14,PHP_6_week,CW0DI1,52776,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:48:19
+PHP_6_week_CW0DI1_p14,PHP_6_week,CW0DI1,52777,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:48:24
+PHP_6_week_CW0DI1_p14,PHP_6_week,CW0DI1,52795,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:48:27
+PHP_6_week_CW0DI1_p14,PHP_6_week,CW0DI1,52830,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:48:30
+PHP_6_week_CW0DI1_p14,PHP_6_week,CW0DI1,52835,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:48:40
+PHP_6_week_CW0DI1_t000_wake_to_nrem,PHP_6_week,CW0DI1,50,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:48:58
+PHP_6_week_CW0DI1_t007_nrem_to_wake,PHP_6_week,CW0DI1,11231,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:49:12
+PHP_6_week_CW0DI1_t009_nrem_to_wake,PHP_6_week,CW0DI1,14669,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:49:32
+PHP_6_week_CW0DI1_t019_wake_to_nrem,PHP_6_week,CW0DI1,27422,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:50:17
+PHP_6_week_CW0DI1_t023_wake_to_nrem,PHP_6_week,CW0DI1,31743,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:50:58
+PHP_6_week_CW0DI1_t025_wake_to_nrem,PHP_6_week,CW0DI1,35303,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:51:08
+PHP_6_week_CW0DI1_t031_nrem_to_wake,PHP_6_week,CW0DI1,44877,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:51:55
+PHP_6_week_CW0DI1_t034_wake_to_nrem,PHP_6_week,CW0DI1,48274,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:52:29
+PHP_6_week_CW0DI1_t034_nrem_to_wake,PHP_6_week,CW0DI1,48771,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:52:58
+PHP_6_week_CW0DI1_t044_nrem_to_wake,PHP_6_week,CW0DI1,64517,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T09:53:07
+vglut_Mice-573_p04,vglut,Mice-573,17808,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:29
+vglut_Mice-573_p04,vglut,Mice-573,17809,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:32
+vglut_Mice-573_p04,vglut,Mice-573,17821,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:35
+vglut_Mice-573_p04,vglut,Mice-573,17840,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:37
+vglut_Mice-573_p04,vglut,Mice-573,17854,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:39
+vglut_Mice-573_p04,vglut,Mice-573,17855,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:40
+vglut_Mice-573_p04,vglut,Mice-573,17856,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:41
+vglut_Mice-573_p09,vglut,Mice-573,34547,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:45
+vglut_Mice-573_p09,vglut,Mice-573,34592,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:51
+vglut_Mice-573_p09,vglut,Mice-573,34593,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:54
+vglut_Mice-573_p09,vglut,Mice-573,34594,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:56
+vglut_Mice-573_p10,vglut,Mice-573,39406,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T09:55:57
+vglut_Mice-573_p11,vglut,Mice-573,40238,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:56:35
+vglut_Mice-573_p11,vglut,Mice-573,40247,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:56:53
+vglut_Mice-573_p11,vglut,Mice-573,40280,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:56:58
+vglut_Mice-573_p11,vglut,Mice-573,40282,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:57:03
+vglut_Mice-573_p11,vglut,Mice-573,40288,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:57:15
+vglut_Mice-573_p17,vglut,Mice-573,62188,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T09:57:38
+vglut_Mice-573_t006_nrem_to_wake,vglut,Mice-573,7218,transition,A,Unsure,Transition,,,A+B,,2026-10-01T09:58:18
+vglut_Mice-573_t011_wake_to_nrem,vglut,Mice-573,12439,transition,A,Unsure,Transition,,,A+B,,2026-10-01T10:00:40
+vglut_Mice-573_t014_nrem_to_wake,vglut,Mice-573,13217,transition,A,Unsure,Transition,,,A+B,,2026-10-01T10:01:15
+vglut_Mice-573_t015_nrem_to_wake,vglut,Mice-573,13977,transition,A,Unsure,Transition,,,A+B,,2026-10-01T10:01:23
+vglut_Mice-573_t002_rem_involving,vglut,Mice-573,16500,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:02:44
+vglut_Mice-573_t016_wake_to_nrem,vglut,Mice-573,17968,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:04:54
+vglut_Mice-573_t018_wake_to_nrem,vglut,Mice-573,20991,transition,A,Unsure,Transition,,,A+B,,2026-10-01T10:06:16
+vglut_Mice-573_t020_nrem_to_wake,vglut,Mice-573,22907,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T10:08:13
+vglut_Mice-573_t022_wake_to_nrem,vglut,Mice-573,29315,transition,A,Unsure,Transition,,,A+B,,2026-10-01T10:09:05
+vglut_Mice-573_t036_nrem_to_wake,vglut,Mice-573,51874,transition,A,Unsure,Transition,,,A+B,,2026-10-01T10:09:39
+vglut_Mice-573_t038_nrem_to_wake,vglut,Mice-573,56276,transition,A,Unsure,Transition,,,A+B,,2026-10-01T10:10:26
+vglut_Mice-573_t007_rem_involving,vglut,Mice-573,56369,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:10:42
+vglut_Mice-573_t008_rem_involving,vglut,Mice-573,60622,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:17:38
+Stxbp1_characterization_Mice-C576_p08,Stxbp1_characterization,Mice-C576,31188,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:49
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34384,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:50
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34385,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:51
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34386,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:53
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34387,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:53
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34388,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:55
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34389,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:55
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34390,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:56
+Stxbp1_characterization_Mice-C576_p09,Stxbp1_characterization,Mice-C576,34391,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:19:59
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61932,periodic,A,Unsure,REM,,,A+B,,2026-10-01T10:20:30
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61933,periodic,A,Unsure,REM,,,A+B,,2026-10-01T10:20:33
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61934,periodic,A,Unsure,REM,,,A+B,,2026-10-01T10:20:34
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61935,periodic,A,Unsure,REM,,,A+B,,2026-10-01T10:20:35
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61947,periodic,A,Unsure,REM,,,A+B,,2026-10-01T10:20:44
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61948,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:20:48
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61951,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:21:12
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61960,periodic,A,Unsure,REM,,,A+B,,2026-10-01T10:21:23
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61963,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:22:33
+Stxbp1_characterization_Mice-C576_p17,Stxbp1_characterization,Mice-C576,61964,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:22:37
+Stxbp1_characterization_Mice-C576_t001_nrem_to_wake,Stxbp1_characterization,Mice-C576,521,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T10:23:38
+Stxbp1_characterization_Mice-C576_t005_wake_to_nrem,Stxbp1_characterization,Mice-C576,6110,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:24:22
+Stxbp1_characterization_Mice-C576_t020_wake_to_nrem,Stxbp1_characterization,Mice-C576,28784,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:24:35
+Stxbp1_characterization_Mice-C576_t024_wake_to_nrem,Stxbp1_characterization,Mice-C576,36264,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T10:25:05
+Stxbp1_characterization_Mice-C576_t005_rem_involving,Stxbp1_characterization,Mice-C576,38300,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T10:26:12
+Stxbp1_characterization_Mice-C576_t029_nrem_to_wake,Stxbp1_characterization,Mice-C576,41587,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:27:05
+Stxbp1_characterization_Mice-C576_t035_nrem_to_wake,Stxbp1_characterization,Mice-C576,49859,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:27:50
+Stxbp1_characterization_Mice-C576_t036_nrem_to_wake,Stxbp1_characterization,Mice-C576,51420,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:30:00
+Stxbp1_characterization_Mice-C576_t038_wake_to_nrem,Stxbp1_characterization,Mice-C576,57321,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T10:37:40
+Stxbp1_characterization_Mice-C576_t039_wake_to_nrem,Stxbp1_characterization,Mice-C576,58389,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:38:02
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25455,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:44:36
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25456,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:01
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25457,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:03
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25458,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:04
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25459,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:08
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25460,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:11
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25461,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:12
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25462,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:14
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25463,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:16
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25464,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:17
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25465,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:19
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25466,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:21
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25467,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:25
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25468,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:28
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25469,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:43
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25470,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:44
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25471,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:49
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25472,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:49
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25473,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:51
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25474,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:51
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25475,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:53
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25476,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:45:54
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25477,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:46:10
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25478,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:46:54
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25479,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:47:01
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25480,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:47:37
+RNA_KO_Mice-C414_p07,RNA_KO,Mice-C414,25481,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:48:09
+RNA_KO_Mice-C414_t031_wake_to_nrem,RNA_KO,Mice-C414,45571,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:49:01
+RNA_KO_Mice-1301_p07,RNA_KO,Mice-1301,28714,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:49:56
+RNA_KO_Mice-1301_p17,RNA_KO,Mice-1301,62602,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:50:19
+SRA_pre_AM0537_p06,SRA_pre,AM0537,23438,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:52:41
+SRA_pre_AM0537_p06,SRA_pre,AM0537,23439,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:53:20
+SRA_pre_AM0537_p07,SRA_pre,AM0537,25465,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:54:18
+SRA_pre_AM0537_p08,SRA_pre,AM0537,29281,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T10:54:27
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4404,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:54:37
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4405,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:54:42
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4406,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:54:47
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4407,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:54:57
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4415,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:55:52
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4416,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:55:57
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4425,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:56:01
+SRA_pre_AM0537_p01,SRA_pre,AM0537,4426,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T10:56:06
+SRA_pre_AM0537_t001_rem_involving,SRA_pre,AM0537,2107,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T10:56:31
+SRA_pre_AM0537_t009_nrem_to_wake,SRA_pre,AM0537,6633,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T10:58:01
+SRA_pre_AM0537_t012_wake_to_nrem,SRA_pre,AM0537,7964,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T10:59:44
+SRA_pre_AM0537_t019_nrem_to_wake,SRA_pre,AM0537,20698,transition,A,Unsure,Unsure,,,A+B,check video,2026-10-01T11:01:08
+SRA_pre_AM0537_t020_wake_to_nrem,SRA_pre,AM0537,20721,transition,A,Unsure,Unsure,,,A+B,check video,2026-10-01T11:01:28
+SRA_pre_AM0537_t020_nrem_to_wake,SRA_pre,AM0537,20772,transition,A,Unsure,Unsure,,,A+B,check video,2026-10-01T11:01:35
+SRA_pre_AM0537_t021_wake_to_nrem,SRA_pre,AM0537,21024,transition,A,Unsure,Unsure,,,A+B,check video,2026-10-01T11:02:08
+SRA_pre_AM0537_t021_nrem_to_wake,SRA_pre,AM0537,21074,transition,A,Unsure,Unsure,,,A+B,check video,2026-10-01T11:02:36
+SRA_pre_AM0537_t023_nrem_to_wake,SRA_pre,AM0537,21368,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:02:54
+SRA_pre_AM0537_t006_rem_involving,SRA_pre,AM0537,25978,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:04:25
+SRA_pre_AM0537_t008_rem_involving,SRA_pre,AM0537,37578,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:04:43
+SRA_pre_AM0537_t009_rem_involving,SRA_pre,AM0537,43186,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:05:10
+SRA_6_week_AM0379_p06,SRA_6_week,AM0379,22782,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:07:44
+SRA_6_week_AM0379_p06,SRA_6_week,AM0379,22783,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:08:35
+SRA_6_week_AM0379_p06,SRA_6_week,AM0379,22784,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:08:38
+SRA_6_week_AM0379_p06,SRA_6_week,AM0379,22785,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:08:43
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30585,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:09:30
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30586,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:09:37
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30587,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:09:41
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30588,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:09:48
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30589,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:09:49
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30590,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:09:51
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30591,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:09:57
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30592,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:09:59
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30597,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:10:01
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30600,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:10:04
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30603,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:10:05
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30604,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:10:06
+SRA_6_week_AM0379_p08,SRA_6_week,AM0379,30605,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:10:07
+SRA_6_week_AM0379_t000_wake_to_nrem,SRA_6_week,AM0379,7,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:10:20
+SRA_6_week_AM0379_t000_nrem_to_wake,SRA_6_week,AM0379,9,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:10:27
+SRA_6_week_AM0379_t011_wake_to_nrem,SRA_6_week,AM0379,5935,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:10:32
+SRA_6_week_AM0379_t018_wake_to_nrem,SRA_6_week,AM0379,19524,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:10:45
+SRA_6_week_AM0379_t025_nrem_to_wake,SRA_6_week,AM0379,24815,transition,A,Unsure,Unsure,,,A+B,Check video,2026-10-01T11:11:35
+SRA_6_week_AM0379_t027_nrem_to_wake,SRA_6_week,AM0379,25634,transition,A,Unsure,Unsure,,,A+B,check video,2026-10-01T11:11:45
+SRA_6_week_AM0379_t037_nrem_to_wake,SRA_6_week,AM0379,30747,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:12:56
+vgat_Mice-535_p13,vgat,Mice-535,50142,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:13:34
+vgat_Mice-535_p13,vgat,Mice-535,50143,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:13:36
+vgat_Mice-535_p13,vgat,Mice-535,50144,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:13:39
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25489,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:15:57
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25490,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:16:01
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25491,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:16:06
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25492,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:16:08
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25493,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:16:41
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25494,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:16:47
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25495,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:16:52
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25496,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:17:01
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25497,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:17:03
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25498,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:17:15
+SRA_pre_AM0767_p07,SRA_pre,AM0767,25499,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:17:17
+SRA_pre_AM0379_p03,SRA_pre,AM0379,13962,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:21:20
+SRA_pre_AM0379_p03,SRA_pre,AM0379,13963,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:21:22
+SRA_pre_AM0379_p03,SRA_pre,AM0379,13964,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:21:23
+SRA_pre_AM0379_p04,SRA_pre,AM0379,15230,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:21:27
+SRA_pre_AM0379_p04,SRA_pre,AM0379,15231,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T11:21:29
+SRA_pre_AM0379_p05,SRA_pre,AM0379,19249,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:21:47
+SRA_pre_AM0379_p05,SRA_pre,AM0379,19250,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:21:48
+SRA_pre_AM0379_p05,SRA_pre,AM0379,19254,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:21:49
+SRA_pre_AM0379_p05,SRA_pre,AM0379,19286,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:21:53
+SRA_pre_AM0379_p05,SRA_pre,AM0379,19304,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:21:58
+SRA_pre_AM0379_t006_wake_to_nrem,SRA_pre,AM0379,3511,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:22:29
+SRA_pre_AM0379_t006_nrem_to_wake,SRA_pre,AM0379,3684,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:22:59
+SRA_pre_AM0379_t008_nrem_to_wake,SRA_pre,AM0379,5264,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:23:08
+SRA_pre_AM0379_t010_nrem_to_wake,SRA_pre,AM0379,5916,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:23:16
+SRA_pre_AM0379_t018_nrem_to_wake,SRA_pre,AM0379,18660,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:23:21
+SRA_pre_AM0379_t018_wake_to_nrem,SRA_pre,AM0379,18663,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:23:39
+SRA_pre_AM0379_t020_wake_to_nrem,SRA_pre,AM0379,19996,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:25:17
+SRA_pre_AM0379_t025_wake_to_nrem,SRA_pre,AM0379,23918,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T11:26:03
+SRA_6_week_AM0767_p04,SRA_6_week,AM0767,16141,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:26:58
+SRA_6_week_AM0767_p04,SRA_6_week,AM0767,16142,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:27:03
+SRA_6_week_AM0767_p04,SRA_6_week,AM0767,16143,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:27:14
+SRA_6_week_AM0767_p04,SRA_6_week,AM0767,16144,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:27:16
+SRA_6_week_AM0767_p04,SRA_6_week,AM0767,16145,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:27:27
+SRA_6_week_AM0767_p04,SRA_6_week,AM0767,16147,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:27:34
+SRA_6_week_AM0767_p04,SRA_6_week,AM0767,16149,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:27:37
+SRA_6_week_AM0767_p09,SRA_6_week,AM0767,34807,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T11:28:50
+SRA_6_week_AM0767_t000_rem_involving,SRA_6_week,AM0767,13,transition,A,Unsure,Transition (wrong states),NREM,Wake,A+B,,2026-10-01T11:29:06
+SRA_6_week_AM0767_t006_wake_to_nrem,SRA_6_week,AM0767,4499,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T11:29:35
+SRA_6_week_AM0767_t002_rem_involving,SRA_6_week,AM0767,4500,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T11:29:47
+SRA_6_week_AM0767_t003_rem_involving,SRA_6_week,AM0767,6404,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T11:30:20
+SRA_6_week_AM0767_t011_wake_to_nrem,SRA_6_week,AM0767,7841,transition,A,Unsure,Transition,,,A+B,,2026-10-01T11:30:32
+SRA_6_week_AM0767_t004_rem_involving,SRA_6_week,AM0767,18683,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T11:30:55
+SRA_6_week_AM0767_t006_rem_involving,SRA_6_week,AM0767,24802,transition,A,Unsure,Transition (wrong states),NREM,Wake,A+B,,2026-10-01T11:31:28
+SRA_6_week_AM0767_t041_wake_to_nrem,SRA_6_week,AM0767,42179,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T11:31:51
+Stxbp1_characterization_Mice-C563_p12,Stxbp1_characterization,Mice-C563,45228,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:29:05
+Stxbp1_characterization_Mice-C563_p14,Stxbp1_characterization,Mice-C563,52562,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:29:12
+Stxbp1_characterization_Mice-C563_p16,Stxbp1_characterization,Mice-C563,58245,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:29:15
+Stxbp1_characterization_Mice-C563_p16,Stxbp1_characterization,Mice-C563,58246,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:29:19
+Stxbp1_characterization_Mice-C563_p16,Stxbp1_characterization,Mice-C563,58247,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:30:00
+Stxbp1_characterization_Mice-C563_p16,Stxbp1_characterization,Mice-C563,58248,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:30:23
+Stxbp1_characterization_Mice-C563_t008_wake_to_nrem,Stxbp1_characterization,Mice-C563,14569,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:32:10
+Stxbp1_characterization_Mice-C563_t009_wake_to_nrem,Stxbp1_characterization,Mice-C563,15991,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:32:38
+Stxbp1_characterization_Mice-C563_t026_wake_to_nrem,Stxbp1_characterization,Mice-C563,38821,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:32:53
+Stxbp1_characterization_Mice-C563_t032_wake_to_nrem,Stxbp1_characterization,Mice-C563,44040,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:33:14
+Stxbp1_characterization_Mice-C563_t033_wake_to_nrem,Stxbp1_characterization,Mice-C563,44806,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:33:20
+Stxbp1_characterization_Mice-C563_t040_wake_to_nrem,Stxbp1_characterization,Mice-C563,61008,transition,A,Unsure,Unsure,,,A+B,Check video,2026-10-01T13:34:25
+Stxbp1_characterization_Mice-C563_t009_rem_involving,Stxbp1_characterization,Mice-C563,64634,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:35:00
+vglut_Mice-226_p00,vglut,Mice-226,2530,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:36:28
+vglut_Mice-226_p03,vglut,Mice-226,13737,periodic,A,Unsure,REM,,,A+B,,2026-10-01T13:37:23
+vglut_Mice-226_p03,vglut,Mice-226,13738,periodic,A,Unsure,REM,,,A+B,check video,2026-10-01T13:38:17
+vglut_Mice-226_p03,vglut,Mice-226,13739,periodic,A,Unsure,REM,,,A+B,,2026-10-01T13:38:41
+vglut_Mice-226_p03,vglut,Mice-226,13743,periodic,A,Unsure,REM,,,A+B,,2026-10-01T13:39:53
+vglut_Mice-226_p03,vglut,Mice-226,13744,periodic,A,Unsure,REM,,,A+B,,2026-10-01T13:40:09
+vglut_Mice-226_p03,vglut,Mice-226,13745,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:40:12
+SRA_6_week_AM0537_p06,SRA_6_week,AM0537,22712,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:41:31
+SRA_6_week_AM0537_p06,SRA_6_week,AM0537,22713,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:41:35
+SRA_6_week_AM0537_p06,SRA_6_week,AM0537,22729,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:41:37
+SRA_6_week_AM0537_p06,SRA_6_week,AM0537,22730,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:41:39
+SRA_6_week_AM0537_t010_nrem_to_wake,SRA_6_week,AM0537,7970,transition,A,Unsure,Transition,,,A+B,,2026-10-01T13:42:40
+SRA_6_week_AM0537_t018_nrem_to_wake,SRA_6_week,AM0537,18684,transition,A,Unsure,Transition,,,A+B,,2026-10-01T13:43:18
+SRA_6_week_AM0537_t020_wake_to_nrem,SRA_6_week,AM0537,20322,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T13:43:41
+SRA_6_week_AM0537_t029_wake_to_nrem,SRA_6_week,AM0537,26851,transition,A,Unsure,Transition,,,A+B,,2026-10-01T13:44:26
+SRA_6_week_AM0537_t032_wake_to_nrem,SRA_6_week,AM0537,28968,transition,A,Unsure,Transition,,,A+B,,2026-10-01T13:46:14
+SRA_6_week_AM0537_t043_nrem_to_wake,SRA_6_week,AM0537,42227,transition,A,Unsure,Transition,,,A+B,,2026-10-01T13:46:28
+SRA_6_week_AM0537_t044_wake_to_nrem,SRA_6_week,AM0537,43049,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T13:46:56
+Stxbp1_characterization_Mice-1254_p04,Stxbp1_characterization,Mice-1254,17108,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:47:38
+Stxbp1_characterization_Mice-1254_p04,Stxbp1_characterization,Mice-1254,17109,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:47:44
+Stxbp1_characterization_Mice-1254_p04,Stxbp1_characterization,Mice-1254,17110,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:47:54
+Stxbp1_characterization_Mice-1254_p04,Stxbp1_characterization,Mice-1254,17111,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:48:32
+Stxbp1_characterization_Mice-1254_p04,Stxbp1_characterization,Mice-1254,17112,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:48:37
+Stxbp1_characterization_Mice-1254_p04,Stxbp1_characterization,Mice-1254,17113,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:49:00
+Stxbp1_characterization_Mice-1254_t002_nrem_to_wake,Stxbp1_characterization,Mice-1254,1352,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:49:23
+Stxbp1_characterization_Mice-1254_t005_wake_to_nrem,Stxbp1_characterization,Mice-1254,6759,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:49:31
+Stxbp1_characterization_Mice-1254_t034_nrem_to_wake,Stxbp1_characterization,Mice-1254,44643,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:49:43
+Stxbp1_characterization_Mice-1254_t037_nrem_to_wake,Stxbp1_characterization,Mice-1254,54685,transition,A,Unsure,Transition,,,A+B,,2026-10-01T13:50:09
+Stxbp1_characterization_Mice-1254_t040_wake_to_nrem,Stxbp1_characterization,Mice-1254,59060,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:51:10
+vgat_Mice-738_p04,vgat,Mice-738,15211,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:52:42
+vgat_Mice-738_p04,vgat,Mice-738,15212,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:52:48
+vgat_Mice-738_p04,vgat,Mice-738,15213,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:53:47
+vgat_Mice-738_p04,vgat,Mice-738,15214,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:54:04
+vgat_Mice-738_p11,vgat,Mice-738,41150,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:54:17
+vgat_Mice-738_p11,vgat,Mice-738,41151,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:54:20
+vgat_Mice-738_p11,vgat,Mice-738,41152,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T13:54:26
+vgat_Mice-738_t014_wake_to_nrem,vgat,Mice-738,13133,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:54:53
+vgat_Mice-738_t002_rem_involving,vgat,Mice-738,14908,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:55:06
+vgat_Mice-738_t023_nrem_to_wake,vgat,Mice-738,18971,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:55:55
+vgat_Mice-738_t004_rem_involving,vgat,Mice-738,20206,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:56:37
+RNA_KO_Mice-1258_p16,RNA_KO,Mice-1258,58811,periodic,A,Unsure,REM,,,A+B,,2026-10-01T13:58:19
+RNA_KO_Mice-1258_p16,RNA_KO,Mice-1258,58812,periodic,A,Unsure,REM,,,A+B,,2026-10-01T13:58:24
+RNA_KO_Mice-1258_p17,RNA_KO,Mice-1258,63139,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T13:58:28
+RNA_KO_Mice-1258_t001_nrem_to_wake,RNA_KO,Mice-1258,1405,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:58:48
+RNA_KO_Mice-1258_t028_wake_to_nrem,RNA_KO,Mice-1258,41328,transition,A,Unsure,Transition,,,A+B,,2026-10-01T13:58:56
+RNA_KO_Mice-1258_t029_wake_to_nrem,RNA_KO,Mice-1258,42159,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T13:59:11
+RNA_KO_Mice-C530_t010_wake_to_nrem,RNA_KO,Mice-C530,14775,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:00:11
+RNA_KO_Mice-C530_t005_rem_involving,RNA_KO,Mice-C530,38566,transition,A,Unsure,Transition (wrong states),NREM,Wake,A+B,,2026-10-01T14:00:49
+RNA_KO_Mice-C530_t027_wake_to_nrem,RNA_KO,Mice-C530,40125,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:00:59
+RNA_KO_Mice-C530_t006_rem_involving,RNA_KO,Mice-C530,42284,transition,A,Unsure,Transition (wrong states),REM,NREM,A+B,,2026-10-01T14:01:48
+RNA_KO_Mice-C530_t029_wake_to_nrem,RNA_KO,Mice-C530,42438,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:01:58
+RNA_KO_Mice-C530_t007_rem_involving,RNA_KO,Mice-C530,51405,transition,A,Unsure,No transition,REM,REM,A+B,,2026-10-01T14:02:23
+vglut_JK1873_t002_nrem_to_wake,vglut,JK1873,2608,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:03:44
+vglut_JK1873_t010_wake_to_nrem,vglut,JK1873,16279,transition,A,Unsure,Transition (wrong states),NREM,Wake,A+B,,2026-10-01T14:05:01
+vglut_JK1873_t020_wake_to_nrem,vglut,JK1873,31210,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:05:23
+vglut_JK1873_t024_wake_to_nrem,vglut,JK1873,35826,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:05:32
+vglut_JK1873_t032_nrem_to_wake,vglut,JK1873,46077,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:06:18
+vglut_JK1873_t036_nrem_to_wake,vglut,JK1873,52622,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:07:13
+SRA_6_week_AM0794_t035_nrem_to_wake,SRA_6_week,AM0794,35950,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:07:39
+SRA_6_week_AM0794_t039_wake_to_nrem,SRA_6_week,AM0794,40257,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:07:51
+SRA_6_week_AM0794_t003_wake_to_nrem,SRA_6_week,AM0794,2324,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:08:26
+SRA_6_week_AM0794_t011_nrem_to_wake,SRA_6_week,AM0794,8741,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:08:44
+SRA_6_week_AM0794_t027_wake_to_nrem,SRA_6_week,AM0794,26339,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:09:03
+RNA_KO_Mice-1304_t002_wake_to_nrem,RNA_KO,Mice-1304,4692,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:09:45
+RNA_KO_Mice-1304_t004_wake_to_nrem,RNA_KO,Mice-1304,9813,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:10:04
+RNA_KO_Mice-1304_t015_wake_to_nrem,RNA_KO,Mice-1304,19676,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:10:18
+RNA_KO_Mice-1304_t029_wake_to_nrem,RNA_KO,Mice-1304,41329,transition,A,Unsure,Transition (wrong states),REM,NREM,A+B,,2026-10-01T14:11:05
+RNA_KO_Mice-1304_t034_nrem_to_wake,RNA_KO,Mice-1304,49816,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:11:25
+vgat_JK1012_p04,vgat,JK1012,16475,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:12:03
+vgat_JK1012_p04,vgat,JK1012,16476,periodic,A,Unsure,REM,,,A+B,,2026-10-01T14:12:31
+vgat_JK1012_p04,vgat,JK1012,16477,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:12:45
+vgat_JK1012_p17,vgat,JK1012,61508,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T14:12:49
+vgat_JK1012_t036_nrem_to_wake,vgat,JK1012,56170,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:13:14
+PHP_pre_CW3209_t014_nrem_to_wake,PHP_pre,CW3209,23025,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:13:45
+PHP_pre_CW3209_t023_nrem_to_wake,PHP_pre,CW3209,37533,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:14:36
+PHP_pre_CW3209_t006_rem_involving,PHP_pre,CW3209,42618,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:15:32
+PHP_pre_CW3209_t034_wake_to_nrem,PHP_pre,CW3209,48448,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:15:42
+PHP_6_week_CW0DN2_p07,PHP_6_week,CW0DN2,28254,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:16:28
+PHP_6_week_CW0DN2_t008_nrem_to_wake,PHP_6_week,CW0DN2,9226,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:17:39
+PHP_6_week_CW0DN2_t020_wake_to_nrem,PHP_6_week,CW0DN2,26844,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:17:52
+PHP_6_week_CW0DN2_t021_wake_to_nrem,PHP_6_week,CW0DN2,27543,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:18:52
+SRA_pre_AM0185_t001_rem_involving,SRA_pre,AM0185,3003,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:20:18
+SRA_pre_AM0185_t022_wake_to_nrem,SRA_pre,AM0185,20505,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:20:31
+SRA_pre_AM0185_t026_wake_to_nrem,SRA_pre,AM0185,22831,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:21:23
+SRA_pre_AM0185_t028_wake_to_nrem,SRA_pre,AM0185,25094,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:21:34
+vglut_JK1935_t001_rem_involving,vglut,JK1935,3732,transition,A,Unsure,Transition (wrong states),Wake,NREM,A+B,,2026-10-01T14:23:05
+vglut_JK1935_t004_wake_to_nrem,vglut,JK1935,3733,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:23:56
+vglut_JK1935_t005_rem_involving,vglut,JK1935,38555,transition,A,Unsure,Transition (wrong states),NREM,Wake,A+B,,2026-10-01T14:24:13
+PHP_pre_CW0DO4_t042_wake_to_nrem,PHP_pre,CW0DO4,62263,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:24:59
+PHP_pre_CW0DO4_t044_wake_to_nrem,PHP_pre,CW0DO4,64477,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:25:09
+PHP_6_week_CW0DO4_t005_nrem_to_wake,PHP_6_week,CW0DO4,7480,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:26:02
+PHP_6_week_CW0DO4_t031_wake_to_nrem,PHP_6_week,CW0DO4,47780,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:26:20
+Stxbp1_characterization_Mice-C264_t000_rem_involving,Stxbp1_characterization,Mice-C264,2,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:27:39
+Stxbp1_characterization_Mice-C264_t002_nrem_to_wake,Stxbp1_characterization,Mice-C264,5621,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:28:26
+PHP_6_week_CW0DA1_t027_wake_to_nrem,PHP_6_week,CW0DA1,43347,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:29:57
+Stxbp1_characterization_Mice-C577_t012_wake_to_nrem,Stxbp1_characterization,Mice-C577,15748,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:30:46
+SRA_pre_AM0794_p02,SRA_pre,AM0794,7591,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:31:36
+SRA_pre_AM0794_p05,SRA_pre,AM0794,20051,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:31:41
+SRA_pre_AM0794_p05,SRA_pre,AM0794,20067,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:31:43
+SRA_pre_AM0794_p05,SRA_pre,AM0794,20068,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:31:49
+SRA_pre_AM0794_p06,SRA_pre,AM0794,24977,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:31:52
+SRA_pre_AM0794_p06,SRA_pre,AM0794,24978,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:31:56
+SRA_pre_AM0794_p06,SRA_pre,AM0794,24979,periodic,A,Unsure,NREM,,,A+B,,2026-10-01T14:31:59
+SRA_pre_AM0794_p06,SRA_pre,AM0794,24985,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T14:32:03
+SRA_pre_AM0794_p06,SRA_pre,AM0794,24993,periodic,A,Unsure,Wake,,,A+B,,2026-10-01T14:32:10
+SRA_pre_AM0794_t004_wake_to_nrem,SRA_pre,AM0794,2145,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:32:20
+SRA_pre_AM0794_t019_nrem_to_wake,SRA_pre,AM0794,19480,transition,A,Unsure,No transition,NREM,NREM,A+B,,2026-10-01T14:32:36
+SRA_pre_AM0794_t020_wake_to_nrem,SRA_pre,AM0794,20014,transition,A,Unsure,No transition,Wake,Wake,A+B,,2026-10-01T14:33:05
+SRA_pre_AM0794_t026_wake_to_nrem,SRA_pre,AM0794,24544,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:33:17
+SRA_pre_AM0794_t041_wake_to_nrem,SRA_pre,AM0794,41877,transition,A,Unsure,Transition,,,A+B,,2026-10-01T14:33:27

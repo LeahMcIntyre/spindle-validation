@@ -6,7 +6,7 @@ PLAN.md (this directory) for the sampling design (periodic census +
 transition sampling) and the blind/sighted, rater-split, and reconcile
 decisions this script implements.
 
-One tool, three MODEs (set the constants below, then rerun):
+One tool, five MODEs (set the constants below, then rerun):
 
   MODE="periodic"    -- steps through EVERY periodic-census window
                          assigned to RATER for FILE
@@ -43,6 +43,33 @@ One tool, three MODEs (set the constants below, then rerun):
                          (Transition (wrong states) -- pick the actual
                          states in the two dropdowns that appear), or
                          Unsure. Results -> results/transition_{RATER}.csv.
+  MODE="unsure"      -- one rater going back over their OWN Unsures for
+                         FILE before reconcile: only RATER's targets
+                         (periodic first, then transition) whose latest
+                         verdict is "Unsure". Same verdicts, blind/
+                         sighted display and results files as the
+                         target's original mode -- a new verdict is
+                         appended like any other and becomes the latest.
+                         For periodic targets the panel also shows YOUR
+                         OWN latest marks for MARKS_CONTEXT epochs either
+                         side (same window; never the algorithm's, so
+                         still blind), and PEEK_PREV_KEY/PEEK_NEXT_KEY
+                         step to a neighboring epoch to view or re-mark
+                         it -- 1-4 appends a new mark for that neighbor
+                         and returns you to the Unsure; Back returns
+                         without marking.
+  MODE="transition_review" -- one rater re-checking transitions they
+                         already marked for FILE: only RATER's transition
+                         targets whose latest verdict is in
+                         REVIEW_VERDICTS (default "No transition"). The
+                         panel shows what you marked and pre-fills the
+                         "Actually" pre/post boxes and note from that
+                         mark; any verdict appends a new row (latest
+                         wins), with the boxes saved for "No transition"
+                         and "Transition (wrong states)". With
+                         REVIEW_SKIP_FILLED, targets whose latest mark
+                         already has both boxes filled are left out, so
+                         rerunning only shows what's left.
   MODE="reconcile"   -- for two raters sitting down together: steps
                          through every target (either mode, whichever
                          rater recorded it) for FILE whose latest
@@ -62,7 +89,7 @@ One tool, three MODEs (set the constants below, then rerun):
                          judgment, which is what blindness protects).
                          Also set RECONCILED_BY (both raters' initials).
 
-FILE = (dataset, animal_id) is the one setting shared by all three
+FILE = (dataset, animal_id) is the one setting shared by all five
 modes -- pick a file once, get every target assigned to you for that
 whole file in one continuous queue, whichever mode you're in. Periodic
 and transition stay two separate sessions/modes rather than one merged
@@ -95,7 +122,7 @@ real schema-corruption incident and its fix -- `_ensure_schema` below
 migrates a results file's header automatically before every write, so
 a future column addition can't repeat it).
 
-RATER identifies whose assignment to pull for periodic/transition modes
+RATER identifies whose assignment to pull for periodic/transition/unsure modes
 (see targets/*.csv's assigned_rater column, computed by
 select_periodic_windows.py / select_transition_epochs.py). Irrelevant
 for MODE="reconcile", which ignores assignment and pulls every Unsure
@@ -148,9 +175,9 @@ from ebb_viewer.edf_viewer.eeg_viewer import launch_edf_window
 from ebb_viewer.edf_viewer.masks import Mask
 
 # ---- session config: edit these, then rerun ----
-MODE = "transition_review"  # "periodic" | "transition" | "reconcile"
-RATER = "B"
-FILE = ("RNA_KO", "Mice-1258")  # (dataset, animal_id) -- the one file this session works on, any MODE
+MODE = "periodic"  # "periodic" | "transition" | "reconcile"
+RATER = "A"
+FILE = ("PHP_pre", "CW0DO4")  # (dataset, animal_id) -- the one file this session works on, any MODE
 RECONCILED_BY = "A+B"         # used when MODE == "reconcile"
 HIDE_DEFAULT_MASKS = True     # commutator/sd/spindle_noise off at launch -- see module docstring
 # --------------------------------------------------
@@ -183,6 +210,11 @@ TRANSITION_VERDICTS = ["Transition", "No transition", TRANSITION_WRONG_STATES_VE
 CORRECTED_STATE_VERDICTS = ("No transition", TRANSITION_WRONG_STATES_VERDICT)
 CORRECTED_STATE_OPTIONS = ["", "Wake", "NREM", "REM"]  # "" = not set (dropdown left untouched)
 BACK_KEY = "0"
+PEEK_PREV_KEY = ","  # unsure mode: step to the previous epoch in this window
+PEEK_NEXT_KEY = "."  # unsure mode: step to the next epoch in this window
+MARKS_CONTEXT = 5  # unsure mode: your own marks shown this many epochs either side
+REVIEW_VERDICTS = ("No transition",)  # transition_review mode: which of your marks to revisit
+REVIEW_SKIP_FILLED = False  # transition_review mode: True = leave out marks that already have both pre/post states
 FS = 250
 EPOCH_SEC = 4  # SPINDLE's own epoch length, matches DEFAULT_SPINDLE_EPOCH_SEC
 WIN_SEC = 10.0  # periodic mode: view width around the single epoch
@@ -379,6 +411,24 @@ def build_transition_queue(dataset: str, animal_id: str, rater: str) -> tuple[li
     return targets, edf_path, spindle_csv
 
 
+def build_own_unsure_targets(dataset: str, animal_id: str, rater: str) -> tuple[list[Target], Path]:
+    """Every periodic + transition target assigned to `rater` for this
+    file (periodic first). All of them, not just the Unsure ones --
+    AnnotationPanel narrows the queue to Unsures itself, but needs every
+    periodic epoch to show your marks around them and step to them."""
+    targets: list[Target] = []
+    edf_path = None
+    for build in (build_periodic_queue, build_transition_queue):
+        try:
+            mode_targets, edf_path, _ = build(dataset, animal_id, rater)
+        except ValueError:  # nothing of this mode assigned to rater
+            continue
+        targets.extend(mode_targets)
+    if edf_path is None:
+        raise ValueError(f"no targets assigned to rater {rater!r} for {dataset}/{animal_id}")
+    return targets, edf_path
+
+
 def _reconciled_pairs() -> set[tuple[str, int]]:
     if not RECONCILED_CSV.exists():
         return set()
@@ -523,15 +573,36 @@ class AnnotationPanel(QtWidgets.QWidget):
             self.queue = list(targets)
             self.resolved_keys: set = set()
             self.unsure_keys: set = set()
+            self.marks: dict = {}
         else:
-            resolved, unsure = self._scan_status(targets)
+            resolved, unsure, marks = self._scan_status(targets)
             pending = [t for t in targets if t.key not in resolved and t.key not in unsure]
             unsure_list = [t for t in targets if t.key in unsure]
-            self.queue = pending + unsure_list  # revisit Unsure targets last, same as nrem_reclass_project's tool
+            if mode == "unsure":
+                self.queue = unsure_list
+            elif mode == "transition_review":
+                self.queue = [t for t in targets if marks.get(t.key) in REVIEW_VERDICTS]
+                if REVIEW_SKIP_FILLED:
+                    self.queue = [t for t in self.queue if not self._has_states(t)]
+            else:
+                self.queue = pending + unsure_list  # revisit Unsure targets last, same as nrem_reclass_project's tool
             self.resolved_keys = resolved
             self.unsure_keys = unsure
+            self.marks = marks  # key -> this rater's latest verdict
         self.total_targets = len(targets)
         self.cursor = 0
+
+        # Unsure mode only: every epoch of each periodic window in order, so
+        # PEEK_PREV_KEY/PEEK_NEXT_KEY can step to neighbors that aren't
+        # in this session's queue (e.g. already-marked epochs next to an
+        # Unsure). peek_offset is how far the selected epoch is from
+        # queue[cursor]; 0 = not stepping.
+        self.window_members: dict[str, list[Target]] = {}
+        if mode == "unsure":
+            for t in targets:
+                if t.source_mode == "periodic":
+                    self.window_members.setdefault(t.target_id, []).append(t)
+        self.peek_offset = 0
 
         self.setWindowTitle(f"Spindle validation — {mode}")
         self.progress_label = QtWidgets.QLabel()
@@ -541,6 +612,10 @@ class AnnotationPanel(QtWidgets.QWidget):
         self.reveal_label = QtWidgets.QLabel()
         self.reveal_label.setWordWrap(True)
         self.reveal_label.setStyleSheet("color: #888;")
+        self.marks_label = QtWidgets.QLabel()
+        self.marks_label.setTextFormat(QtCore.Qt.TextFormat.RichText)
+        self.marks_label.setWordWrap(True)
+        self.marks_label.setVisible(mode == "unsure")
 
         self.setStyleSheet(
             "QPushButton {"
@@ -617,10 +692,15 @@ class AnnotationPanel(QtWidgets.QWidget):
         right_sc = QtGui.QShortcut(QtGui.QKeySequence(QtCore.Qt.Key.Key_Right), self)
         right_sc.setContext(QtCore.Qt.ShortcutContext.ApplicationShortcut)
         right_sc.activated.connect(lambda: None if self.note_edit.hasFocus() else self._pan(1))
+        for key, direction in ((PEEK_PREV_KEY, -1), (PEEK_NEXT_KEY, 1)):
+            sc = QtGui.QShortcut(QtGui.QKeySequence(key), self)
+            sc.setContext(QtCore.Qt.ShortcutContext.ApplicationShortcut)
+            sc.activated.connect(lambda d=direction: None if self.note_edit.hasFocus() else self._step(d))
 
         layout = QtWidgets.QVBoxLayout(self)
         layout.addWidget(self.progress_label)
         layout.addWidget(self.algo_label)
+        layout.addWidget(self.marks_label)
         layout.addWidget(QtWidgets.QLabel("Verdict (advances to next):"))
         layout.addLayout(verdict_grid)
         layout.addWidget(self.corrected_widget)
@@ -686,6 +766,7 @@ class AnnotationPanel(QtWidgets.QWidget):
         one file total, not one per target)."""
         resolved: set = set()
         unsure: set = set()
+        marks: dict = {}
         cache: dict[Path, pd.DataFrame | None] = {}
         for t in targets:
             if t.results_csv not in cache:
@@ -702,16 +783,97 @@ class AnnotationPanel(QtWidgets.QWidget):
             row = latest[(latest["target_id"] == t.target_id) & (latest["epoch_idx"] == t.epoch_idx)]
             if row.empty:
                 continue
+            marks[t.key] = row.iloc[-1]["human_verdict"]
             if row.iloc[-1]["human_verdict"] == "Unsure":
                 unsure.add(t.key)
             else:
                 resolved.add(t.key)
-        return resolved, unsure
+        return resolved, unsure, marks
+
+    def _has_states(self, t: Target) -> bool:
+        row = self._latest_original_row(t)
+        return all(isinstance(row.get(c), str) and row.get(c) for c in ("corrected_pre_state", "corrected_post_state"))
+
+    def _prefill_from_mark(self, t: Target) -> None:
+        """transition_review mode: show your latest mark for `t` and
+        pre-fill the pre/post boxes and note from it."""
+        row = {k: v for k, v in self._latest_original_row(t).items() if isinstance(v, str)}
+        pre, post = row.get("corrected_pre_state", ""), row.get("corrected_post_state", "")
+        self.corrected_from_combo.setCurrentText(pre)
+        self.corrected_to_combo.setCurrentText(post)
+        self.note_edit.setText(row.get("notes", ""))
+        states = f" (actually {pre or '?'} → {post or '?'})" if pre or post else " (no pre/post states)"
+        self.reveal_label.setText(f"You marked: {row.get('human_verdict', '?')}{states}")
 
     def _current_target(self) -> Target | None:
         if self.cursor >= len(self.queue):
             return None
         return self.queue[self.cursor]
+
+    def _active_target(self) -> Target | None:
+        """The epoch shown and marked right now: queue[cursor], or the
+        neighbor stepped to with PEEK_PREV_KEY/PEEK_NEXT_KEY."""
+        t = self._current_target()
+        if t is None or not self.peek_offset:
+            return t
+        members = self.window_members[t.target_id]
+        return members[members.index(t) + self.peek_offset]
+
+    def _step(self, direction: int) -> None:
+        t = self._current_target()
+        if t is None or t.target_id not in self.window_members:
+            return
+        members = self.window_members[t.target_id]
+        new = members.index(t) + self.peek_offset + direction
+        if not 0 <= new < len(members):
+            self.reveal_label.setText("Edge of this window — no more epochs that way.")
+            return
+        self.peek_offset = new - members.index(t)
+        self.note_edit.clear()
+        self._show_current()
+
+    def _marks_text(self, anchor: Target) -> str:
+        """Your own latest marks around the selected epoch, same window:
+        [x] = selected epoch, (x) = your place in the queue when stepping
+        away from it, ? = Unsure, - = not marked yet. Rich text, so the
+        key/legend lines can be laid out as a table."""
+        members = self.window_members.get(anchor.target_id)
+        if not members:
+            return ""
+        i = members.index(anchor)
+        j = i + self.peek_offset
+        lo = max(0, min(i, j) - MARKS_CONTEXT)
+        hi = min(len(members), max(i, j) + MARKS_CONTEXT + 1)
+        parts = ["|"] if lo == 0 else ["…"]
+        for k in range(lo, hi):
+            m = self.marks.get(members[k].key)
+            m = {"Wake": "W", "NREM": "N", "REM": "R", "Unsure": "?"}.get(m, "-")
+            if k == j:
+                m = f"[{m}]"
+            elif k == i:
+                m = f"({m})"
+            parts.append(m)
+        parts.append("|" if hi == len(members) else "…")
+        keycap = 'style="background-color: #d8d8d8; font-weight: bold; font-size: 14px;"'
+        keys = (
+            f"<span {keycap}>&nbsp;{PEEK_PREV_KEY}&nbsp;</span> step left"
+            f"&nbsp;&nbsp;&nbsp;&nbsp;<span {keycap}>&nbsp;{PEEK_NEXT_KEY}&nbsp;</span> step right"
+        )
+        legend = [
+            ("[ ]", "selected epoch", "( )", "your Unsure"),
+            ("W N R", "Wake / NREM / REM", "?", "Unsure"),
+            ("-", "not marked", "| …", "window edge / more"),
+        ]
+        cell = 'style="padding-right: 6px; color: #666;"'
+        rows = "".join(
+            f"<tr><td {cell}><tt>{a}</tt></td><td {cell}>{b}</td><td {cell}><tt>{c}</tt></td><td {cell}>{d}</td></tr>"
+            for a, b, c, d in legend
+        )
+        return (
+            f"<div>your marks: <tt><b>{' '.join(parts)}</b></tt></div>"
+            f'<div style="margin-top: 6px;">{keys}</div>'
+            f'<table style="margin-top: 4px;">{rows}</table>'
+        )
 
     def _pan(self, direction: int) -> None:
         """Pan the EDF trace view left (-1) or right (+1) by half a
@@ -748,6 +910,7 @@ class AnnotationPanel(QtWidgets.QWidget):
         if t is None:
             self.progress_label.setText(f"{self.mode}: nothing left in this session's queue")
             self.algo_label.setText("")
+            self.marks_label.setText("")
             return
 
         self.progress_label.setText(
@@ -755,6 +918,23 @@ class AnnotationPanel(QtWidgets.QWidget):
             f"{len(self.queue) - self.cursor} remaining this session"
             f"{f', {len(self.unsure_keys)} unsure' if self.unsure_keys else ''}"
         )
+        self.marks_label.setText(self._marks_text(t))
+        self.marks_label.setVisible(bool(self.marks_label.text()))
+
+        # From here on, show the selected epoch (a stepped-to neighbor
+        # when stepping, else queue[cursor]).
+        t = self._active_target()
+        mark = self.marks.get(t.key)
+        if self.peek_offset:
+            self.back_button.setEnabled(True)
+            self.reveal_label.setText(
+                f"Neighbor epoch {t.epoch_idx} — your mark: {mark or 'not marked'}. "
+                f"1-4 to change it, {BACK_KEY} to return to your place."
+            )
+        else:
+            self.reveal_label.setText(f"Your current mark: {mark}" if mark and self.mode == "unsure" else "")
+            if self.mode == "transition_review":
+                self._prefill_from_mark(t)
 
         show_algo = self._show_algo_for(t)
         self.algo_label.setText(self._algo_text(t) if show_algo else "algorithm call: hidden until recorded")
@@ -791,7 +971,7 @@ class AnnotationPanel(QtWidgets.QWidget):
         return mine.iloc[-1].to_dict()
 
     def _record(self, verdict: str) -> None:
-        t = self._current_target()
+        t = self._active_target()
         if t is None:
             return
         row = t.epoch_row
@@ -864,15 +1044,33 @@ class AnnotationPanel(QtWidgets.QWidget):
         else:
             self.resolved_keys.add(t.key)
             self.unsure_keys.discard(t.key)
+        if self.mode != "reconcile":
+            self.marks[t.key] = verdict
 
         self.reveal_label.setText("")
         self.note_edit.clear()
+
+        if self.peek_offset:
+            # Re-marked a neighbor: return to your place, don't advance.
+            # Back won't undo this -- step to it again and re-mark.
+            self.peek_offset = 0
+            self._show_current()
+            self.reveal_label.setText(f"Epoch {t.epoch_idx} re-marked {verdict}. Back at your place.")
+            self.setFocus()
+            return
 
         self.cursor += 1
         self._show_current()
         self.setFocus()
 
     def _go_back(self) -> None:
+        if self.peek_offset:
+            # Stepped to a neighbor: Back just returns to your place.
+            self.peek_offset = 0
+            self.note_edit.clear()
+            self._show_current()
+            self.setFocus()
+            return
         if self.cursor == 0:
             return
         self.cursor -= 1
@@ -880,6 +1078,14 @@ class AnnotationPanel(QtWidgets.QWidget):
         prev = self._delete_result(t)
         self.resolved_keys.discard(t.key)
         self.unsure_keys.discard(t.key)
+        if self.mode != "reconcile":
+            # An older mark (e.g. the Unsure being revisited) may still
+            # be underneath the one just deleted.
+            older = self._latest_original_row(t).get("human_verdict")
+            if isinstance(older, str):
+                self.marks[t.key] = older
+            else:
+                self.marks.pop(t.key, None)
         self._show_current()  # resets the dropdowns, so restore them after
         self.note_edit.setText(prev.get("note", ""))
         if prev.get("corrected_pre"):
@@ -943,6 +1149,12 @@ def main() -> None:
     elif MODE == "transition":
         targets, edf_path, _spindle_csv = build_transition_queue(dataset, animal_id, RATER)
         reconciled_by = None
+    elif MODE == "unsure":
+        targets, edf_path = build_own_unsure_targets(dataset, animal_id, RATER)
+        reconciled_by = None
+    elif MODE == "transition_review":
+        targets, edf_path, _spindle_csv = build_transition_queue(dataset, animal_id, RATER)
+        reconciled_by = None
     elif MODE == "reconcile":
         targets, edf_path, _spindle_csv = build_reconcile_queue(dataset, animal_id)
         reconciled_by = RECONCILED_BY
@@ -953,7 +1165,6 @@ def main() -> None:
         print(f"{MODE}: nothing to annotate for the current selection.")
         return
 
-    print(f"{MODE}: {len(targets)} epochs queued")
 
     # No csv_path -- launch_edf_window would otherwise build its own
     # native state bar straight from SPINDLE's raw labels (real bug hit
@@ -989,6 +1200,7 @@ def main() -> None:
         win.trace_view.refresh_overlays()
 
     panel = AnnotationPanel(MODE, targets, win, RATER, reconciled_by)
+    print(f"{MODE}: {len(panel.queue)} epochs queued")
     panel.move(20, 60)
     panel.show()
 
