@@ -1818,3 +1818,409 @@ RNA_KO_Mice-C530_t041_nrem_to_wake,RNA_KO,Mice-C530,61250,245000,2016-06-27T14:0
 RNA_KO_Mice-C530_t043_nrem_to_wake,RNA_KO,Mice-C530,63505,254020,2016-06-27T16:32:05,Wake,Wake,,False,NREM,Wake,REM,Wake,Transition (wrong states),,B,2026-10-06T00:08:24
 RNA_KO_Mice-C530_t009_rem_involving,RNA_KO,Mice-C530,64776,259104,2016-06-27T17:56:49,Wake,Wake,,False,REM,Wake,Wake,Wake,No transition,,B,2026-10-06T00:08:34
 RNA_KO_Mice-C530_t044_wake_to_nrem,RNA_KO,Mice-C530,64777,259108,2016-06-27T17:56:53,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T00:08:49
+Stxbp1_characterization_Mice-C563_t000_wake_to_nrem,Stxbp1_characterization,Mice-C563,481,1924,2016-07-04T18:15:17,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:20:28
+Stxbp1_characterization_Mice-C563_t000_nrem_to_wake,Stxbp1_characterization,Mice-C563,482,1928,2016-07-04T18:15:21,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:20:41
+Stxbp1_characterization_Mice-C563_t000_rem_involving,Stxbp1_characterization,Mice-C563,713,2852,2016-07-04T18:30:45,REM,REM,,False,NREM,REM,,,Transition,,B,2026-10-06T07:20:51
+Stxbp1_characterization_Mice-C563_t001_wake_to_nrem,Stxbp1_characterization,Mice-C563,1279,5116,2016-07-04T19:08:29,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:21:00
+Stxbp1_characterization_Mice-C563_t002_wake_to_nrem,Stxbp1_characterization,Mice-C563,5432,21728,2016-07-04T23:45:21,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:21:13
+Stxbp1_characterization_Mice-C563_t002_nrem_to_wake,Stxbp1_characterization,Mice-C563,5626,22504,2016-07-04T23:58:17,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:21:17
+Stxbp1_characterization_Mice-C563_t003_wake_to_nrem,Stxbp1_characterization,Mice-C563,6532,26128,2016-07-05T00:58:41,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:21:25
+Stxbp1_characterization_Mice-C563_t004_wake_to_nrem,Stxbp1_characterization,Mice-C563,11023,44092,2016-07-05T05:58:05,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:21:31
+Stxbp1_characterization_Mice-C563_t001_rem_involving,Stxbp1_characterization,Mice-C563,11898,47592,2016-07-05T06:56:25,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T07:21:36
+Stxbp1_characterization_Mice-C563_t005_wake_to_nrem,Stxbp1_characterization,Mice-C563,11902,47608,2016-07-05T06:56:41,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:21:46
+Stxbp1_characterization_Mice-C563_t006_nrem_to_wake,Stxbp1_characterization,Mice-C563,12757,51028,2016-07-05T07:53:41,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:21:56
+Stxbp1_characterization_Mice-C563_t006_wake_to_nrem,Stxbp1_characterization,Mice-C563,12759,51036,2016-07-05T07:53:49,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:22:04
+Stxbp1_characterization_Mice-C563_t008_nrem_to_wake,Stxbp1_characterization,Mice-C563,14630,58520,2016-07-05T09:58:33,Wake,Wake,,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:22:22
+Stxbp1_characterization_Mice-C563_t002_rem_involving,Stxbp1_characterization,Mice-C563,16436,65744,2016-07-05T11:58:57,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T07:22:26
+Stxbp1_characterization_Mice-C563_t010_nrem_to_wake,Stxbp1_characterization,Mice-C563,16634,66536,2016-07-05T12:12:09,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:22:59
+Stxbp1_characterization_Mice-C563_t011_wake_to_nrem,Stxbp1_characterization,Mice-C563,17962,71848,2016-07-05T13:40:41,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:23:07
+Stxbp1_characterization_Mice-C563_t013_wake_to_nrem,Stxbp1_characterization,Mice-C563,20019,80076,2016-07-05T15:57:49,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:23:29
+Stxbp1_characterization_Mice-C563_t013_nrem_to_wake,Stxbp1_characterization,Mice-C563,20031,80124,2016-07-05T15:58:37,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:23:51
+Stxbp1_characterization_Mice-C563_t014_nrem_to_wake,Stxbp1_characterization,Mice-C563,20562,82248,2016-07-05T16:34:01,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:24:13
+Stxbp1_characterization_Mice-C563_t014_wake_to_nrem,Stxbp1_characterization,Mice-C563,20635,82540,2016-07-05T16:38:53,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T07:24:49
+Stxbp1_characterization_Mice-C563_t015_wake_to_nrem,Stxbp1_characterization,Mice-C563,21281,85124,2016-07-05T17:21:57,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:25:07
+Stxbp1_characterization_Mice-C563_t016_nrem_to_wake,Stxbp1_characterization,Mice-C563,21718,86872,2016-07-05T17:51:05,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:25:13
+Stxbp1_characterization_Mice-C563_t017_wake_to_nrem,Stxbp1_characterization,Mice-C563,22485,89940,2016-07-05T18:42:13,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:25:20
+Stxbp1_characterization_Mice-C563_t019_nrem_to_wake,Stxbp1_characterization,Mice-C563,24098,96392,2016-07-05T20:29:45,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:25:58
+Stxbp1_characterization_Mice-C563_t020_nrem_to_wake,Stxbp1_characterization,Mice-C563,26715,106860,2016-07-05T23:24:13,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:26:03
+Stxbp1_characterization_Mice-C563_t020_wake_to_nrem,Stxbp1_characterization,Mice-C563,29057,116228,2016-07-06T02:00:21,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:26:24
+Stxbp1_characterization_Mice-C563_t021_nrem_to_wake,Stxbp1_characterization,Mice-C563,29460,117840,2016-07-06T02:27:13,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T07:26:31
+Stxbp1_characterization_Mice-C563_t023_nrem_to_wake,Stxbp1_characterization,Mice-C563,35253,141012,2016-07-06T08:53:25,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:26:36
+Stxbp1_characterization_Mice-C563_t023_wake_to_nrem,Stxbp1_characterization,Mice-C563,35427,141708,2016-07-06T09:05:01,NREM,NREM,,False,Wake,NREM,REM,REM,No transition,,B,2026-10-06T07:27:04
+Stxbp1_characterization_Mice-C563_t025_wake_to_nrem,Stxbp1_characterization,Mice-C563,37431,149724,2016-07-06T11:18:37,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:27:13
+Stxbp1_characterization_Mice-C563_t026_nrem_to_wake,Stxbp1_characterization,Mice-C563,38639,154556,2016-07-06T12:39:09,Wake,Wake,,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:27:31
+Stxbp1_characterization_Mice-C563_t005_rem_involving,Stxbp1_characterization,Mice-C563,39114,156456,2016-07-06T13:10:49,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T07:27:59
+Stxbp1_characterization_Mice-C563_t027_wake_to_nrem,Stxbp1_characterization,Mice-C563,39775,159100,2016-07-06T13:54:53,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:28:17
+Stxbp1_characterization_Mice-C563_t028_nrem_to_wake,Stxbp1_characterization,Mice-C563,40255,161020,2016-07-06T14:26:53,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T07:28:26
+Stxbp1_characterization_Mice-C563_t028_wake_to_nrem,Stxbp1_characterization,Mice-C563,40392,161568,2016-07-06T14:36:01,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:28:46
+Stxbp1_characterization_Mice-C563_t031_nrem_to_wake,Stxbp1_characterization,Mice-C563,42845,171380,2016-07-06T17:19:33,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:28:59
+Stxbp1_characterization_Mice-C563_t031_wake_to_nrem,Stxbp1_characterization,Mice-C563,43489,173956,2016-07-06T18:02:29,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T07:29:23
+Stxbp1_characterization_Mice-C563_t032_nrem_to_wake,Stxbp1_characterization,Mice-C563,43946,175784,2016-07-06T18:32:57,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:29:33
+Stxbp1_characterization_Mice-C563_t034_wake_to_nrem,Stxbp1_characterization,Mice-C563,48859,195436,2016-07-07T00:00:29,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:29:39
+Stxbp1_characterization_Mice-C563_t035_nrem_to_wake,Stxbp1_characterization,Mice-C563,49342,197368,2016-07-07T00:32:41,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:29:42
+Stxbp1_characterization_Mice-C563_t037_nrem_to_wake,Stxbp1_characterization,Mice-C563,56707,226828,2016-07-07T08:43:41,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:29:45
+Stxbp1_characterization_Mice-C563_t038_nrem_to_wake,Stxbp1_characterization,Mice-C563,57640,230560,2016-07-07T09:45:53,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:30:18
+Stxbp1_characterization_Mice-C563_t038_wake_to_nrem,Stxbp1_characterization,Mice-C563,57985,231940,2016-07-07T10:08:53,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:30:30
+Stxbp1_characterization_Mice-C563_t008_rem_involving,Stxbp1_characterization,Mice-C563,59751,239004,2016-07-07T12:06:37,REM,REM,,False,NREM,REM,,,Transition,,B,2026-10-06T07:30:54
+Stxbp1_characterization_Mice-C563_t042_nrem_to_wake,Stxbp1_characterization,Mice-C563,62952,251808,2016-07-07T15:40:01,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:30:58
+Stxbp1_characterization_Mice-1254_t000_nrem_to_wake,Stxbp1_characterization,Mice-1254,36,144,2017-08-11T17:58:37,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:32:22
+Stxbp1_characterization_Mice-1254_t000_rem_involving,Stxbp1_characterization,Mice-1254,391,1564,2017-08-11T18:22:17,REM,REM,REM,False,NREM,REM,Wake,Wake,No transition,,B,2026-10-06T07:32:37
+Stxbp1_characterization_Mice-1254_t002_wake_to_nrem,Stxbp1_characterization,Mice-1254,1442,5768,2017-08-11T19:32:21,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:32:40
+Stxbp1_characterization_Mice-1254_t003_nrem_to_wake,Stxbp1_characterization,Mice-1254,1843,7372,2017-08-11T19:59:05,Wake,Wake,Wake,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:32:47
+Stxbp1_characterization_Mice-1254_t003_wake_to_nrem,Stxbp1_characterization,Mice-1254,2940,11760,2017-08-11T21:12:13,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:32:57
+Stxbp1_characterization_Mice-1254_t005_nrem_to_wake,Stxbp1_characterization,Mice-1254,5068,20272,2017-08-11T23:34:05,Wake,Wake,Wake,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:33:03
+Stxbp1_characterization_Mice-1254_t006_nrem_to_wake,Stxbp1_characterization,Mice-1254,5217,20868,2017-08-11T23:44:01,Wake,Wake,Wake,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:33:08
+Stxbp1_characterization_Mice-1254_t006_wake_to_nrem,Stxbp1_characterization,Mice-1254,6958,27832,2017-08-12T01:40:05,NREM,Wake,NREM,True,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T07:33:23
+Stxbp1_characterization_Mice-1254_t008_nrem_to_wake,Stxbp1_characterization,Mice-1254,7024,28096,2017-08-12T01:44:29,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:33:26
+Stxbp1_characterization_Mice-1254_t007_wake_to_nrem,Stxbp1_characterization,Mice-1254,7516,30064,2017-08-12T02:17:17,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:33:29
+Stxbp1_characterization_Mice-1254_t009_nrem_to_wake,Stxbp1_characterization,Mice-1254,7712,30848,2017-08-12T02:30:21,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:33:31
+Stxbp1_characterization_Mice-1254_t010_nrem_to_wake,Stxbp1_characterization,Mice-1254,11890,47560,2017-08-12T07:08:53,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:33:34
+Stxbp1_characterization_Mice-1254_t011_nrem_to_wake,Stxbp1_characterization,Mice-1254,12907,51628,2017-08-12T08:16:41,Wake,Wake,Wake,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:33:39
+Stxbp1_characterization_Mice-1254_t013_nrem_to_wake,Stxbp1_characterization,Mice-1254,15331,61324,2017-08-12T10:58:17,Wake,Wake,Wake,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:33:46
+Stxbp1_characterization_Mice-1254_t012_wake_to_nrem,Stxbp1_characterization,Mice-1254,15485,61940,2017-08-12T11:08:33,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:33:49
+Stxbp1_characterization_Mice-1254_t014_nrem_to_wake,Stxbp1_characterization,Mice-1254,16019,64076,2017-08-12T11:44:09,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:33:52
+Stxbp1_characterization_Mice-1254_t013_wake_to_nrem,Stxbp1_characterization,Mice-1254,16181,64724,2017-08-12T11:54:57,NREM,NREM,NREM,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:33:58
+Stxbp1_characterization_Mice-1254_t002_rem_involving,Stxbp1_characterization,Mice-1254,16644,66576,2017-08-12T12:25:49,REM,REM,REM,False,NREM,REM,Wake,Wake,No transition,,B,2026-10-06T07:34:11
+Stxbp1_characterization_Mice-1254_t015_nrem_to_wake,Stxbp1_characterization,Mice-1254,16931,67724,2017-08-12T12:44:57,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:34:16
+Stxbp1_characterization_Mice-1254_t016_nrem_to_wake,Stxbp1_characterization,Mice-1254,19196,76784,2017-08-12T15:15:57,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:34:18
+Stxbp1_characterization_Mice-1254_t019_nrem_to_wake,Stxbp1_characterization,Mice-1254,21391,85564,2017-08-12T17:42:17,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:34:26
+Stxbp1_characterization_Mice-1254_t018_wake_to_nrem,Stxbp1_characterization,Mice-1254,21396,85584,2017-08-12T17:42:37,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:34:28
+Stxbp1_characterization_Mice-1254_t020_nrem_to_wake,Stxbp1_characterization,Mice-1254,22103,88412,2017-08-12T18:29:45,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:34:32
+Stxbp1_characterization_Mice-1254_t019_wake_to_nrem,Stxbp1_characterization,Mice-1254,22104,88416,2017-08-12T18:29:49,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:34:35
+Stxbp1_characterization_Mice-1254_t021_nrem_to_wake,Stxbp1_characterization,Mice-1254,22415,89660,2017-08-12T18:50:33,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:34:37
+Stxbp1_characterization_Mice-1254_t020_wake_to_nrem,Stxbp1_characterization,Mice-1254,22759,91036,2017-08-12T19:13:29,NREM,NREM,NREM,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T07:34:44
+Stxbp1_characterization_Mice-1254_t021_wake_to_nrem,Stxbp1_characterization,Mice-1254,23453,93812,2017-08-12T19:59:45,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:34:48
+Stxbp1_characterization_Mice-1254_t023_nrem_to_wake,Stxbp1_characterization,Mice-1254,26853,107412,2017-08-12T23:46:25,Wake,Wake,Wake,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:34:54
+Stxbp1_characterization_Mice-1254_t022_wake_to_nrem,Stxbp1_characterization,Mice-1254,27034,108136,2017-08-12T23:58:29,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:34:57
+Stxbp1_characterization_Mice-1254_t023_wake_to_nrem,Stxbp1_characterization,Mice-1254,28693,114772,2017-08-13T01:49:05,NREM,NREM,NREM,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T07:35:03
+Stxbp1_characterization_Mice-1254_t026_nrem_to_wake,Stxbp1_characterization,Mice-1254,29028,116112,2017-08-13T02:11:25,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:35:06
+Stxbp1_characterization_Mice-1254_t024_wake_to_nrem,Stxbp1_characterization,Mice-1254,29092,116368,2017-08-13T02:15:41,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:35:09
+Stxbp1_characterization_Mice-1254_t027_nrem_to_wake,Stxbp1_characterization,Mice-1254,34850,139400,2017-08-13T08:39:33,Wake,Wake,Wake,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:35:32
+Stxbp1_characterization_Mice-1254_t027_wake_to_nrem,Stxbp1_characterization,Mice-1254,36461,145844,2017-08-13T10:26:57,NREM,NREM,NREM,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:35:43
+Stxbp1_characterization_Mice-1254_t005_rem_involving,Stxbp1_characterization,Mice-1254,37578,150312,2017-08-13T11:41:25,REM,REM,REM,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T07:36:13
+Stxbp1_characterization_Mice-1254_t029_nrem_to_wake,Stxbp1_characterization,Mice-1254,37739,150956,2017-08-13T11:52:09,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:36:16
+Stxbp1_characterization_Mice-1254_t031_nrem_to_wake,Stxbp1_characterization,Mice-1254,41071,164284,2017-08-13T15:34:17,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:36:18
+Stxbp1_characterization_Mice-1254_t006_rem_involving,Stxbp1_characterization,Mice-1254,41338,165352,2017-08-13T15:52:05,Wake,Wake,Wake,False,REM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:36:26
+Stxbp1_characterization_Mice-1254_t031_wake_to_nrem,Stxbp1_characterization,Mice-1254,41710,166840,2017-08-13T16:16:53,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:36:31
+Stxbp1_characterization_Mice-1254_t032_nrem_to_wake,Stxbp1_characterization,Mice-1254,42700,170800,2017-08-13T17:22:53,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:36:32
+Stxbp1_characterization_Mice-1254_t036_nrem_to_wake,Stxbp1_characterization,Mice-1254,50694,202776,2017-08-14T02:15:49,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:36:47
+Stxbp1_characterization_Mice-1254_t036_wake_to_nrem,Stxbp1_characterization,Mice-1254,54414,217656,2017-08-14T06:23:49,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:36:49
+Stxbp1_characterization_Mice-1254_t007_rem_involving,Stxbp1_characterization,Mice-1254,54929,219716,2017-08-14T06:58:09,Wake,Wake,Wake,False,REM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:36:58
+Stxbp1_characterization_Mice-1254_t039_nrem_to_wake,Stxbp1_characterization,Mice-1254,57460,229840,2017-08-14T09:46:53,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:37:01
+Stxbp1_characterization_Mice-1254_t040_nrem_to_wake,Stxbp1_characterization,Mice-1254,58672,234688,2017-08-14T11:07:41,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:37:06
+Stxbp1_characterization_Mice-1254_t008_rem_involving,Stxbp1_characterization,Mice-1254,59164,236656,2017-08-14T11:40:29,REM,REM,REM,False,NREM,REM,,,Transition,,B,2026-10-06T07:37:27
+Stxbp1_characterization_Mice-1254_t042_nrem_to_wake,Stxbp1_characterization,Mice-1254,61881,247524,2017-08-14T14:41:37,Wake,Wake,Wake,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:37:46
+Stxbp1_characterization_Mice-1254_t042_wake_to_nrem,Stxbp1_characterization,Mice-1254,62033,248132,2017-08-14T14:51:45,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:37:54
+Stxbp1_characterization_Mice-1254_t043_wake_to_nrem,Stxbp1_characterization,Mice-1254,63520,254080,2017-08-14T16:30:53,NREM,NREM,NREM,False,Wake,NREM,,,Transition,,B,2026-10-06T07:37:57
+Stxbp1_characterization_Mice-1254_t044_nrem_to_wake,Stxbp1_characterization,Mice-1254,64618,258472,2017-08-14T17:44:05,Wake,Wake,Wake,False,NREM,Wake,,,Transition,,B,2026-10-06T07:38:13
+Stxbp1_characterization_Mice-1254_t009_rem_involving,Stxbp1_characterization,Mice-1254,64746,258984,2017-08-14T17:52:37,Wake,Wake,Wake,False,REM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:38:29
+Stxbp1_characterization_Mice-1254_t044_wake_to_nrem,Stxbp1_characterization,Mice-1254,64749,258996,2017-08-14T17:52:49,NREM,NREM,NREM,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:38:43
+Stxbp1_characterization_Mice-C264_t000_wake_to_nrem,Stxbp1_characterization,Mice-C264,8,32,2016-04-04T18:54:11,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:41:31
+Stxbp1_characterization_Mice-C264_t000_nrem_to_wake,Stxbp1_characterization,Mice-C264,26,104,2016-04-04T18:55:23,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:41:36
+Stxbp1_characterization_Mice-C264_t003_wake_to_nrem,Stxbp1_characterization,Mice-C264,6146,24584,2016-04-05T01:43:23,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:41:47
+Stxbp1_characterization_Mice-C264_t004_nrem_to_wake,Stxbp1_characterization,Mice-C264,7000,28000,2016-04-05T02:40:19,Wake,Wake,,False,NREM,Wake,,,Unsure,,B,2026-10-06T07:42:17
+Stxbp1_characterization_Mice-C264_t006_nrem_to_wake,Stxbp1_characterization,Mice-C264,10785,43140,2016-04-05T06:52:39,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:42:20
+Stxbp1_characterization_Mice-C264_t005_wake_to_nrem,Stxbp1_characterization,Mice-C264,10854,43416,2016-04-05T06:57:15,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:42:28
+Stxbp1_characterization_Mice-C264_t007_nrem_to_wake,Stxbp1_characterization,Mice-C264,11390,45560,2016-04-05T07:32:59,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:42:32
+Stxbp1_characterization_Mice-C264_t008_nrem_to_wake,Stxbp1_characterization,Mice-C264,12142,48568,2016-04-05T08:23:07,NREM,Wake,,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:42:41
+Stxbp1_characterization_Mice-C264_t001_rem_involving,Stxbp1_characterization,Mice-C264,12832,51328,2016-04-05T09:09:07,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T07:43:02
+Stxbp1_characterization_Mice-C264_t010_nrem_to_wake,Stxbp1_characterization,Mice-C264,13795,55180,2016-04-05T10:13:19,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:43:17
+Stxbp1_characterization_Mice-C264_t011_nrem_to_wake,Stxbp1_characterization,Mice-C264,14270,57080,2016-04-05T10:44:59,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:43:21
+Stxbp1_characterization_Mice-C264_t010_wake_to_nrem,Stxbp1_characterization,Mice-C264,14502,58008,2016-04-05T11:00:27,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:43:37
+Stxbp1_characterization_Mice-C264_t011_wake_to_nrem,Stxbp1_characterization,Mice-C264,15058,60232,2016-04-05T11:37:31,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:43:40
+Stxbp1_characterization_Mice-C264_t012_wake_to_nrem,Stxbp1_characterization,Mice-C264,16831,67324,2016-04-05T13:35:43,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:43:45
+Stxbp1_characterization_Mice-C264_t002_rem_involving,Stxbp1_characterization,Mice-C264,17164,68656,2016-04-05T13:57:55,REM,REM,,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T07:43:58
+Stxbp1_characterization_Mice-C264_t014_nrem_to_wake,Stxbp1_characterization,Mice-C264,17526,70104,2016-04-05T14:22:03,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:44:05
+Stxbp1_characterization_Mice-C264_t013_wake_to_nrem,Stxbp1_characterization,Mice-C264,17553,70212,2016-04-05T14:23:51,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T07:44:17
+Stxbp1_characterization_Mice-C264_t015_nrem_to_wake,Stxbp1_characterization,Mice-C264,18817,75268,2016-04-05T15:48:07,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:44:26
+Stxbp1_characterization_Mice-C264_t014_wake_to_nrem,Stxbp1_characterization,Mice-C264,18875,75500,2016-04-05T15:51:59,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:44:44
+Stxbp1_characterization_Mice-C264_t016_nrem_to_wake,Stxbp1_characterization,Mice-C264,19683,78732,2016-04-05T16:45:51,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:44:47
+Stxbp1_characterization_Mice-C264_t015_wake_to_nrem,Stxbp1_characterization,Mice-C264,19747,78988,2016-04-05T16:50:07,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:44:50
+Stxbp1_characterization_Mice-C264_t016_wake_to_nrem,Stxbp1_characterization,Mice-C264,20292,81168,2016-04-05T17:26:27,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:44:52
+Stxbp1_characterization_Mice-C264_t018_nrem_to_wake,Stxbp1_characterization,Mice-C264,21593,86372,2016-04-05T18:53:11,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T07:45:05
+Stxbp1_characterization_Mice-C264_t019_nrem_to_wake,Stxbp1_characterization,Mice-C264,22266,89064,2016-04-05T19:38:03,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:45:57
+Stxbp1_characterization_Mice-C264_t019_wake_to_nrem,Stxbp1_characterization,Mice-C264,25872,103488,2016-04-05T23:38:27,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:46:12
+Stxbp1_characterization_Mice-C264_t021_nrem_to_wake,Stxbp1_characterization,Mice-C264,26759,107036,2016-04-06T00:37:35,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:46:14
+Stxbp1_characterization_Mice-C264_t020_wake_to_nrem,Stxbp1_characterization,Mice-C264,27907,111628,2016-04-06T01:54:07,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:46:30
+Stxbp1_characterization_Mice-C264_t022_wake_to_nrem,Stxbp1_characterization,Mice-C264,32438,129752,2016-04-06T06:56:11,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T07:46:52
+Stxbp1_characterization_Mice-C264_t024_nrem_to_wake,Stxbp1_characterization,Mice-C264,33567,134268,2016-04-06T08:11:27,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:46:59
+Stxbp1_characterization_Mice-C264_t024_wake_to_nrem,Stxbp1_characterization,Mice-C264,34315,137260,2016-04-06T09:01:19,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:47:25
+Stxbp1_characterization_Mice-C264_t026_nrem_to_wake,Stxbp1_characterization,Mice-C264,36332,145328,2016-04-06T11:15:47,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:48:03
+Stxbp1_characterization_Mice-C264_t028_nrem_to_wake,Stxbp1_characterization,Mice-C264,38164,152656,2016-04-06T13:17:55,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T07:48:31
+Stxbp1_characterization_Mice-C264_t027_wake_to_nrem,Stxbp1_characterization,Mice-C264,38170,152680,2016-04-06T13:18:19,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:48:48
+Stxbp1_characterization_Mice-C264_t005_rem_involving,Stxbp1_characterization,Mice-C264,38442,153768,2016-04-06T13:36:27,REM,REM,,False,NREM,REM,,,Transition,,B,2026-10-06T07:49:56
+Stxbp1_characterization_Mice-C264_t029_nrem_to_wake,Stxbp1_characterization,Mice-C264,38966,155864,2016-04-06T14:11:23,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:50:21
+Stxbp1_characterization_Mice-C264_t029_wake_to_nrem,Stxbp1_characterization,Mice-C264,40593,162372,2016-04-06T15:59:51,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:50:32
+Stxbp1_characterization_Mice-C264_t030_wake_to_nrem,Stxbp1_characterization,Mice-C264,41419,165676,2016-04-06T16:54:55,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:50:39
+Stxbp1_characterization_Mice-C264_t031_nrem_to_wake,Stxbp1_characterization,Mice-C264,41515,166060,2016-04-06T17:01:19,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:50:41
+Stxbp1_characterization_Mice-C264_t032_nrem_to_wake,Stxbp1_characterization,Mice-C264,42943,171772,2016-04-06T18:36:31,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:50:45
+Stxbp1_characterization_Mice-C264_t006_rem_involving,Stxbp1_characterization,Mice-C264,43326,173304,2016-04-06T19:02:03,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T07:51:35
+Stxbp1_characterization_Mice-C264_t033_wake_to_nrem,Stxbp1_characterization,Mice-C264,47775,191100,2016-04-06T23:58:39,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:51:40
+Stxbp1_characterization_Mice-C264_t034_wake_to_nrem,Stxbp1_characterization,Mice-C264,48561,194244,2016-04-07T00:51:03,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:51:57
+Stxbp1_characterization_Mice-C264_t035_nrem_to_wake,Stxbp1_characterization,Mice-C264,48754,195016,2016-04-07T01:03:55,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:52:03
+Stxbp1_characterization_Mice-C264_t035_wake_to_nrem,Stxbp1_characterization,Mice-C264,53917,215668,2016-04-07T06:48:07,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:52:06
+Stxbp1_characterization_Mice-C264_t037_nrem_to_wake,Stxbp1_characterization,Mice-C264,54624,218496,2016-04-07T07:35:15,Wake,Wake,,False,NREM,Wake,REM,Wake,Transition (wrong states),,B,2026-10-06T07:52:35
+Stxbp1_characterization_Mice-C264_t037_wake_to_nrem,Stxbp1_characterization,Mice-C264,56315,225260,2016-04-07T09:27:59,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:52:42
+Stxbp1_characterization_Mice-C264_t038_nrem_to_wake,Stxbp1_characterization,Mice-C264,56455,225820,2016-04-07T09:37:19,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:52:45
+Stxbp1_characterization_Mice-C264_t008_rem_involving,Stxbp1_characterization,Mice-C264,60496,241984,2016-04-07T14:06:43,REM,REM,,False,NREM,REM,,,Transition,,B,2026-10-06T07:52:57
+Stxbp1_characterization_Mice-C264_t041_nrem_to_wake,Stxbp1_characterization,Mice-C264,60528,242112,2016-04-07T14:08:51,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:52:59
+Stxbp1_characterization_Mice-C264_t042_nrem_to_wake,Stxbp1_characterization,Mice-C264,62092,248368,2016-04-07T15:53:07,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T07:53:02
+Stxbp1_characterization_Mice-C264_t042_wake_to_nrem,Stxbp1_characterization,Mice-C264,62393,249572,2016-04-07T16:13:11,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:53:20
+Stxbp1_characterization_Mice-C264_t043_wake_to_nrem,Stxbp1_characterization,Mice-C264,63635,254540,2016-04-07T17:35:59,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T07:53:26
+Stxbp1_characterization_Mice-C264_t009_rem_involving,Stxbp1_characterization,Mice-C264,64329,257316,2016-04-07T18:22:15,Wake,Wake,,False,REM,Wake,,,Unsure,,B,2026-10-06T07:53:43
+Stxbp1_characterization_Mice-C264_t044_wake_to_nrem,Stxbp1_characterization,Mice-C264,64740,258960,2016-04-07T18:49:39,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T07:53:52
+vgat_JK1011_t000_nrem_to_wake,vgat,JK1011,18,72,2018-06-01T16:58:51,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:09:53
+vgat_JK1011_t001_wake_to_nrem,vgat,JK1011,1128,4512,2018-06-01T18:12:51,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:10:06
+vgat_JK1011_t001_nrem_to_wake,vgat,JK1011,1208,4832,2018-06-01T18:18:11,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:10:37
+vgat_JK1011_t002_wake_to_nrem,vgat,JK1011,1973,7892,2018-06-01T19:09:11,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:10:48
+vgat_JK1011_t003_nrem_to_wake,vgat,JK1011,3614,14456,2018-06-01T20:58:35,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:10:56
+vgat_JK1011_t003_wake_to_nrem,vgat,JK1011,5184,20736,2018-06-01T22:43:15,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T09:11:12
+vgat_JK1011_t004_nrem_to_wake,vgat,JK1011,6402,25608,2018-06-02T00:04:27,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:11:16
+vgat_JK1011_t007_nrem_to_wake,vgat,JK1011,13219,52876,2018-06-02T07:38:55,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:11:50
+vgat_JK1011_t001_rem_involving,vgat,JK1011,13328,53312,2018-06-02T07:46:11,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T09:12:10
+vgat_JK1011_t007_wake_to_nrem,vgat,JK1011,13961,55844,2018-06-02T08:28:23,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:12:45
+vgat_JK1011_t008_nrem_to_wake,vgat,JK1011,14633,58532,2018-06-02T09:13:11,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:12:53
+vgat_JK1011_t008_wake_to_nrem,vgat,JK1011,14857,59428,2018-06-02T09:28:07,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:13:03
+vgat_JK1011_t009_nrem_to_wake,vgat,JK1011,15454,61816,2018-06-02T10:07:55,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:13:08
+vgat_JK1011_t010_wake_to_nrem,vgat,JK1011,16822,67288,2018-06-02T11:39:07,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:13:18
+vgat_JK1011_t002_rem_involving,vgat,JK1011,16997,67988,2018-06-02T11:50:47,Wake,Wake,,False,REM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:14:15
+vgat_JK1011_t011_nrem_to_wake,vgat,JK1011,17602,70408,2018-06-02T12:31:07,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:14:19
+vgat_JK1011_t011_wake_to_nrem,vgat,JK1011,17676,70704,2018-06-02T12:36:03,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:14:27
+vgat_JK1011_t012_nrem_to_wake,vgat,JK1011,18589,74356,2018-06-02T13:36:55,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:14:33
+vgat_JK1011_t012_wake_to_nrem,vgat,JK1011,19024,76096,2018-06-02T14:05:55,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:14:55
+vgat_JK1011_t013_nrem_to_wake,vgat,JK1011,19885,79540,2018-06-02T15:03:19,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:15:07
+vgat_JK1011_t013_wake_to_nrem,vgat,JK1011,19924,79696,2018-06-02T15:05:55,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:15:14
+vgat_JK1011_t014_wake_to_nrem,vgat,JK1011,20663,82652,2018-06-02T15:55:11,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:15:29
+vgat_JK1011_t014_nrem_to_wake,vgat,JK1011,21311,85244,2018-06-02T16:38:23,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:15:31
+vgat_JK1011_t016_wake_to_nrem,vgat,JK1011,23444,93776,2018-06-02T19:00:35,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:15:38
+vgat_JK1011_t017_nrem_to_wake,vgat,JK1011,26828,107312,2018-06-02T22:46:11,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:15:40
+vgat_JK1011_t018_nrem_to_wake,vgat,JK1011,28800,115200,2018-06-03T00:57:39,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:16:16
+vgat_JK1011_t019_wake_to_nrem,vgat,JK1011,30083,120332,2018-06-03T02:23:11,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:16:19
+vgat_JK1011_t020_wake_to_nrem,vgat,JK1011,31003,124012,2018-06-03T03:24:31,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:16:23
+vgat_JK1011_t023_wake_to_nrem,vgat,JK1011,35546,142184,2018-06-03T08:27:23,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:16:34
+vgat_JK1011_t005_rem_involving,vgat,JK1011,37273,149092,2018-06-03T10:22:31,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T09:17:20
+vgat_JK1011_t025_wake_to_nrem,vgat,JK1011,37569,150276,2018-06-03T10:42:15,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:17:29
+vgat_JK1011_t027_nrem_to_wake,vgat,JK1011,40763,163052,2018-06-03T14:15:11,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:17:31
+vgat_JK1011_t028_wake_to_nrem,vgat,JK1011,41451,165804,2018-06-03T15:01:03,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:17:37
+vgat_JK1011_t029_wake_to_nrem,vgat,JK1011,42677,170708,2018-06-03T16:22:47,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:18:33
+vgat_JK1011_t029_nrem_to_wake,vgat,JK1011,43154,172616,2018-06-03T16:54:35,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:18:36
+vgat_JK1011_t030_wake_to_nrem,vgat,JK1011,43528,174112,2018-06-03T17:19:31,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:18:56
+vgat_JK1011_t031_wake_to_nrem,vgat,JK1011,45042,180168,2018-06-03T19:00:27,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:19:13
+vgat_JK1011_t031_nrem_to_wake,vgat,JK1011,45179,180716,2018-06-03T19:09:35,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:19:18
+vgat_JK1011_t032_wake_to_nrem,vgat,JK1011,45700,182800,2018-06-03T19:44:19,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:19:25
+vgat_JK1011_t033_nrem_to_wake,vgat,JK1011,49783,199132,2018-06-04T00:16:31,Wake,Wake,,False,NREM,Wake,NREM,REM,Transition (wrong states),,B,2026-10-06T09:19:48
+vgat_JK1011_t033_wake_to_nrem,vgat,JK1011,49915,199660,2018-06-04T00:25:19,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:20:01
+vgat_JK1011_t034_nrem_to_wake,vgat,JK1011,51158,204632,2018-06-04T01:48:11,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:20:04
+vgat_JK1011_t037_nrem_to_wake,vgat,JK1011,52927,211708,2018-06-04T03:46:07,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:20:07
+vgat_JK1011_t037_wake_to_nrem,vgat,JK1011,56420,225680,2018-06-04T07:38:59,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:20:43
+vgat_JK1011_t038_wake_to_nrem,vgat,JK1011,57389,229556,2018-06-04T08:43:35,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:20:46
+vgat_JK1011_t040_nrem_to_wake,vgat,JK1011,59326,237304,2018-06-04T10:52:43,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:20:50
+vgat_JK1011_t043_nrem_to_wake,vgat,JK1011,63299,253196,2018-06-04T15:17:35,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:20:52
+vgat_JK1011_t044_nrem_to_wake,vgat,JK1011,64698,258792,2018-06-04T16:50:51,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:20:53
+vgat_JK1011_t009_rem_involving,vgat,JK1011,64774,259096,2018-06-04T16:55:55,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T09:20:59
+vgat_JK1011_t044_wake_to_nrem,vgat,JK1011,64778,259112,2018-06-04T16:56:11,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:21:19
+vgat_JK1012_t000_wake_to_nrem,vgat,JK1012,1,4,2018-06-01T16:57:46,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:22:34
+vgat_JK1012_t000_nrem_to_wake,vgat,JK1012,2,8,2018-06-01T16:57:50,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:22:37
+vgat_JK1012_t000_rem_involving,vgat,JK1012,203,812,2018-06-01T17:11:14,REM,REM,,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T09:22:47
+vgat_JK1012_t001_nrem_to_wake,vgat,JK1012,982,3928,2018-06-01T18:03:10,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:22:50
+vgat_JK1012_t002_nrem_to_wake,vgat,JK1012,1722,6888,2018-06-01T18:52:30,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:22:52
+vgat_JK1012_t003_nrem_to_wake,vgat,JK1012,2719,10876,2018-06-01T19:58:58,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:22:54
+vgat_JK1012_t003_wake_to_nrem,vgat,JK1012,2723,10892,2018-06-01T19:59:14,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:23:14
+vgat_JK1012_t005_wake_to_nrem,vgat,JK1012,9487,37948,2018-06-02T03:30:10,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:23:31
+vgat_JK1012_t001_rem_involving,vgat,JK1012,10194,40776,2018-06-02T04:17:18,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T09:23:37
+vgat_JK1012_t007_wake_to_nrem,vgat,JK1012,14200,56800,2018-06-02T08:44:22,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:23:41
+vgat_JK1012_t008_wake_to_nrem,vgat,JK1012,15316,61264,2018-06-02T09:58:46,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:23:43
+vgat_JK1012_t010_nrem_to_wake,vgat,JK1012,16880,67520,2018-06-02T11:43:02,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:23:46
+vgat_JK1012_t011_nrem_to_wake,vgat,JK1012,18530,74120,2018-06-02T13:33:02,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:23:49
+vgat_JK1012_t011_wake_to_nrem,vgat,JK1012,19348,77392,2018-06-02T14:27:34,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:23:59
+vgat_JK1012_t013_wake_to_nrem,vgat,JK1012,21522,86088,2018-06-02T16:52:30,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:24:03
+vgat_JK1012_t014_nrem_to_wake,vgat,JK1012,22572,90288,2018-06-02T18:02:30,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:24:05
+vgat_JK1012_t014_wake_to_nrem,vgat,JK1012,22700,90800,2018-06-02T18:11:02,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:24:19
+vgat_JK1012_t015_wake_to_nrem,vgat,JK1012,23105,92420,2018-06-02T18:38:02,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:24:22
+vgat_JK1012_t016_nrem_to_wake,vgat,JK1012,24440,97760,2018-06-02T20:07:02,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:24:25
+vgat_JK1012_t017_nrem_to_wake,vgat,JK1012,26146,104584,2018-06-02T22:00:46,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:24:27
+vgat_JK1012_t020_nrem_to_wake,vgat,JK1012,31942,127768,2018-06-03T04:27:10,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:24:29
+vgat_JK1012_t022_nrem_to_wake,vgat,JK1012,36197,144788,2018-06-03T09:10:50,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:24:31
+vgat_JK1012_t023_nrem_to_wake,vgat,JK1012,37354,149416,2018-06-03T10:27:58,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:24:47
+vgat_JK1012_t024_nrem_to_wake,vgat,JK1012,38682,154728,2018-06-03T11:56:30,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:24:50
+vgat_JK1012_t024_wake_to_nrem,vgat,JK1012,38770,155080,2018-06-03T12:02:22,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:25:08
+vgat_JK1012_t005_rem_involving,vgat,JK1012,39190,156760,2018-06-03T12:30:22,REM,REM,,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T09:25:19
+vgat_JK1012_t025_nrem_to_wake,vgat,JK1012,39448,157792,2018-06-03T12:47:34,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:25:25
+vgat_JK1012_t025_wake_to_nrem,vgat,JK1012,39526,158104,2018-06-03T12:52:46,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:25:43
+vgat_JK1012_t026_wake_to_nrem,vgat,JK1012,40171,160684,2018-06-03T13:35:46,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:25:48
+vgat_JK1012_t027_wake_to_nrem,vgat,JK1012,41560,166240,2018-06-03T15:08:22,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:25:49
+vgat_JK1012_t028_wake_to_nrem,vgat,JK1012,42440,169760,2018-06-03T16:07:02,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:26:04
+vgat_JK1012_t029_nrem_to_wake,vgat,JK1012,43438,173752,2018-06-03T17:13:34,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:26:14
+vgat_JK1012_t030_nrem_to_wake,vgat,JK1012,44071,176284,2018-06-03T17:55:46,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:26:16
+vgat_JK1012_t030_wake_to_nrem,vgat,JK1012,44528,178112,2018-06-03T18:26:14,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T09:26:44
+vgat_JK1012_t032_nrem_to_wake,vgat,JK1012,47486,189944,2018-06-03T21:43:26,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:26:59
+vgat_JK1012_t032_wake_to_nrem,vgat,JK1012,47676,190704,2018-06-03T21:56:06,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:27:22
+vgat_JK1012_t033_wake_to_nrem,vgat,JK1012,50899,203596,2018-06-04T01:30:58,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:27:26
+vgat_JK1012_t034_wake_to_nrem,vgat,JK1012,51979,207916,2018-06-04T02:42:58,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:27:29
+vgat_JK1012_t007_rem_involving,vgat,JK1012,53048,212192,2018-06-04T03:54:14,Wake,Wake,,True,REM,Wake,,,Transition,,B,2026-10-06T09:27:30
+vgat_JK1012_t036_wake_to_nrem,vgat,JK1012,56258,225032,2018-06-04T07:28:14,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:27:38
+vgat_JK1012_t037_nrem_to_wake,vgat,JK1012,57694,230776,2018-06-04T09:03:58,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:27:41
+vgat_JK1012_t037_wake_to_nrem,vgat,JK1012,57742,230968,2018-06-04T09:07:10,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:28:29
+vgat_JK1012_t038_nrem_to_wake,vgat,JK1012,59143,236572,2018-06-04T10:40:34,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:28:31
+vgat_JK1012_t038_wake_to_nrem,vgat,JK1012,59171,236684,2018-06-04T10:42:26,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:28:34
+vgat_JK1012_t039_nrem_to_wake,vgat,JK1012,60058,240232,2018-06-04T11:41:34,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:28:36
+vgat_JK1012_t039_wake_to_nrem,vgat,JK1012,60108,240432,2018-06-04T11:44:54,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:28:39
+vgat_JK1012_t040_nrem_to_wake,vgat,JK1012,60999,243996,2018-06-04T12:44:18,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:28:41
+vgat_JK1012_t042_nrem_to_wake,vgat,JK1012,62942,251768,2018-06-04T14:53:50,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:28:43
+vgat_JK1012_t043_wake_to_nrem,vgat,JK1012,64043,256172,2018-06-04T16:07:14,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:28:45
+vgat_JK1012_t043_nrem_to_wake,vgat,JK1012,64048,256192,2018-06-04T16:07:34,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:28:46
+vgat_JK1012_t044_nrem_to_wake,vgat,JK1012,64679,258716,2018-06-04T16:49:38,Wake,Wake,,False,NREM,Wake,,,Unsure,,B,2026-10-06T09:28:57
+vgat_Mice-535_t000_nrem_to_wake,vgat,Mice-535,189,756,2017-12-25T17:57:15,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:31:20
+vgat_Mice-535_t000_rem_involving,vgat,Mice-535,510,2040,2017-12-25T18:18:39,REM,REM,,False,NREM,REM,,,Unsure,,B,2026-10-06T09:31:55
+vgat_Mice-535_t001_wake_to_nrem,vgat,Mice-535,1030,4120,2017-12-25T18:53:19,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:32:10
+vgat_Mice-535_t001_nrem_to_wake,vgat,Mice-535,1039,4156,2017-12-25T18:53:55,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:32:13
+vgat_Mice-535_t002_nrem_to_wake,vgat,Mice-535,7480,29920,2017-12-26T02:03:19,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:32:15
+vgat_Mice-535_t002_wake_to_nrem,vgat,Mice-535,7574,30296,2017-12-26T02:09:35,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:32:24
+vgat_Mice-535_t003_nrem_to_wake,vgat,Mice-535,11372,45488,2017-12-26T06:22:47,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:32:27
+vgat_Mice-535_t001_rem_involving,vgat,Mice-535,12809,51236,2017-12-26T07:58:35,Wake,Wake,,False,REM,Wake,,,Unsure,,B,2026-10-06T09:32:51
+vgat_Mice-535_t005_wake_to_nrem,vgat,Mice-535,13601,54404,2017-12-26T08:51:23,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:33:04
+vgat_Mice-535_t006_wake_to_nrem,vgat,Mice-535,14813,59252,2017-12-26T10:12:11,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:33:11
+vgat_Mice-535_t006_nrem_to_wake,vgat,Mice-535,15109,60436,2017-12-26T10:31:55,Wake,Wake,,False,NREM,Wake,,,Unsure,,B,2026-10-06T09:33:19
+vgat_Mice-535_t007_nrem_to_wake,vgat,Mice-535,17280,69120,2017-12-26T12:56:39,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:33:27
+vgat_Mice-535_t008_wake_to_nrem,vgat,Mice-535,18287,73148,2017-12-26T14:03:47,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:33:42
+vgat_Mice-535_t009_nrem_to_wake,vgat,Mice-535,18988,75952,2017-12-26T14:50:31,Wake,Wake,,False,NREM,Wake,,,Unsure,,B,2026-10-06T09:34:01
+vgat_Mice-535_t003_rem_involving,vgat,Mice-535,20238,80952,2017-12-26T16:13:51,REM,REM,,False,NREM,REM,,,Transition,,B,2026-10-06T09:34:22
+vgat_Mice-535_t011_nrem_to_wake,vgat,Mice-535,20440,81760,2017-12-26T16:27:19,Wake,Wake,,False,NREM,Wake,,,Unsure,,B,2026-10-06T09:34:30
+vgat_Mice-535_t012_nrem_to_wake,vgat,Mice-535,21750,87000,2017-12-26T17:54:39,Wake,Wake,,True,NREM,Wake,,,Unsure,,B,2026-10-06T09:34:43
+vgat_Mice-535_t014_wake_to_nrem,vgat,Mice-535,23115,92460,2017-12-26T19:25:39,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:34:54
+vgat_Mice-535_t015_wake_to_nrem,vgat,Mice-535,28468,113872,2017-12-27T01:22:31,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:35:22
+vgat_Mice-535_t004_rem_involving,vgat,Mice-535,28711,114844,2017-12-27T01:38:43,Wake,Wake,,False,REM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:35:42
+vgat_Mice-535_t015_nrem_to_wake,vgat,Mice-535,29207,116828,2017-12-27T02:11:47,Wake,Wake,,True,NREM,Wake,,,Unsure,,B,2026-10-06T09:36:07
+vgat_Mice-535_t016_wake_to_nrem,vgat,Mice-535,29502,118008,2017-12-27T02:31:27,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:36:14
+vgat_Mice-535_t016_nrem_to_wake,vgat,Mice-535,32932,131728,2017-12-27T06:20:07,Wake,Wake,,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:36:25
+vgat_Mice-535_t017_wake_to_nrem,vgat,Mice-535,33480,133920,2017-12-27T06:56:39,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:36:33
+vgat_Mice-535_t018_wake_to_nrem,vgat,Mice-535,34162,136648,2017-12-27T07:42:07,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:36:44
+vgat_Mice-535_t019_wake_to_nrem,vgat,Mice-535,35504,142016,2017-12-27T09:11:35,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:36:48
+vgat_Mice-535_t021_wake_to_nrem,vgat,Mice-535,37858,151432,2017-12-27T11:48:31,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:36:52
+vgat_Mice-535_t021_nrem_to_wake,vgat,Mice-535,38154,152616,2017-12-27T12:08:15,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:36:54
+vgat_Mice-535_t023_wake_to_nrem,vgat,Mice-535,39800,159200,2017-12-27T13:57:59,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:37:00
+vgat_Mice-535_t024_wake_to_nrem,vgat,Mice-535,40885,163540,2017-12-27T15:10:19,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:37:15
+vgat_Mice-535_t025_wake_to_nrem,vgat,Mice-535,41429,165716,2017-12-27T15:46:35,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:37:34
+vgat_Mice-535_t025_nrem_to_wake,vgat,Mice-535,41610,166440,2017-12-27T15:58:39,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:38:03
+vgat_Mice-535_t006_rem_involving,vgat,Mice-535,42308,169232,2017-12-27T16:45:11,Wake,Wake,,False,REM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:38:11
+vgat_Mice-535_t028_nrem_to_wake,vgat,Mice-535,43551,174204,2017-12-27T18:08:03,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:38:23
+vgat_Mice-535_t029_wake_to_nrem,vgat,Mice-535,44331,177324,2017-12-27T19:00:03,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:38:30
+vgat_Mice-535_t030_nrem_to_wake,vgat,Mice-535,45250,181000,2017-12-27T20:01:19,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:38:56
+vgat_Mice-535_t031_nrem_to_wake,vgat,Mice-535,50297,201188,2017-12-28T01:37:47,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:38:58
+vgat_Mice-535_t007_rem_involving,vgat,Mice-535,51132,204528,2017-12-28T02:33:27,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T09:39:03
+vgat_Mice-535_t033_wake_to_nrem,vgat,Mice-535,55005,220020,2017-12-28T06:51:39,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:39:13
+vgat_Mice-535_t034_wake_to_nrem,vgat,Mice-535,55578,222312,2017-12-28T07:29:51,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:39:40
+vgat_Mice-535_t034_nrem_to_wake,vgat,Mice-535,55726,222904,2017-12-28T07:39:43,Wake,Wake,,False,NREM,Wake,,,Unsure,,B,2026-10-06T09:40:03
+vgat_Mice-535_t035_nrem_to_wake,vgat,Mice-535,57089,228356,2017-12-28T09:10:35,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:40:14
+vgat_Mice-535_t036_wake_to_nrem,vgat,Mice-535,57468,229872,2017-12-28T09:35:51,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:40:30
+vgat_Mice-535_t037_wake_to_nrem,vgat,Mice-535,58454,233816,2017-12-28T10:41:35,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:40:34
+vgat_Mice-535_t037_nrem_to_wake,vgat,Mice-535,58597,234388,2017-12-28T10:51:07,Wake,Wake,,False,NREM,Wake,REM,Wake,Transition (wrong states),,B,2026-10-06T09:41:24
+vgat_Mice-535_t038_wake_to_nrem,vgat,Mice-535,59605,238420,2017-12-28T11:58:19,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:41:38
+vgat_Mice-535_t039_nrem_to_wake,vgat,Mice-535,60544,242176,2017-12-28T13:00:55,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:41:51
+vgat_Mice-535_t039_wake_to_nrem,vgat,Mice-535,60655,242620,2017-12-28T13:08:19,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:41:56
+vgat_Mice-535_t008_rem_involving,vgat,Mice-535,61348,245392,2017-12-28T13:54:31,REM,REM,,True,NREM,REM,REM,Wake,Transition (wrong states),,B,2026-10-06T09:42:12
+vgat_Mice-535_t040_nrem_to_wake,vgat,Mice-535,61447,245788,2017-12-28T14:01:07,NREM,Wake,,True,NREM,Wake,,,Unsure,,B,2026-10-06T09:42:21
+vgat_Mice-535_t042_wake_to_nrem,vgat,Mice-535,63477,253908,2017-12-28T16:16:27,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:42:25
+vgat_Mice-535_t043_wake_to_nrem,vgat,Mice-535,64150,256600,2017-12-28T17:01:19,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:42:27
+vgat_Mice-535_t043_nrem_to_wake,vgat,Mice-535,64167,256668,2017-12-28T17:02:27,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:42:29
+vgat_Mice-535_t044_wake_to_nrem,vgat,Mice-535,64621,258484,2017-12-28T17:32:43,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:42:33
+vglut_JK1873_t000_nrem_to_wake,vglut,JK1873,223,892,2019-06-28T16:56:17,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:44:18
+vglut_JK1873_t000_rem_involving,vglut,JK1873,347,1388,2019-06-28T17:04:33,REM,REM,,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T09:44:24
+vglut_JK1873_t002_wake_to_nrem,vglut,JK1873,2607,10428,2019-06-28T19:35:13,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:44:32
+vglut_JK1873_t003_nrem_to_wake,vglut,JK1873,3646,14584,2019-06-28T20:44:29,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:44:37
+vglut_JK1873_t004_nrem_to_wake,vglut,JK1873,4924,19696,2019-06-28T22:09:41,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:44:41
+vglut_JK1873_t005_wake_to_nrem,vglut,JK1873,7302,29208,2019-06-29T00:48:13,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T09:44:45
+vglut_JK1873_t006_nrem_to_wake,vglut,JK1873,8711,34844,2019-06-29T02:22:09,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:44:56
+vglut_JK1873_t007_nrem_to_wake,vglut,JK1873,10094,40376,2019-06-29T03:54:21,NREM,Wake,,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:45:13
+vglut_JK1873_t008_nrem_to_wake,vglut,JK1873,11630,46520,2019-06-29T05:36:45,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:45:17
+vglut_JK1873_t011_nrem_to_wake,vglut,JK1873,17012,68048,2019-06-29T11:35:33,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:45:20
+vglut_JK1873_t012_wake_to_nrem,vglut,JK1873,19030,76120,2019-06-29T13:50:05,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:45:29
+vglut_JK1873_t013_nrem_to_wake,vglut,JK1873,19518,78072,2019-06-29T14:22:37,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:45:47
+vglut_JK1873_t002_rem_involving,vglut,JK1873,20270,81080,2019-06-29T15:12:45,REM,REM,,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T09:45:52
+vglut_JK1873_t014_wake_to_nrem,vglut,JK1873,21599,86396,2019-06-29T16:41:21,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:45:57
+vglut_JK1873_t015_nrem_to_wake,vglut,JK1873,22534,90136,2019-06-29T17:43:41,Wake,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:45:59
+vglut_JK1873_t015_wake_to_nrem,vglut,JK1873,22861,91444,2019-06-29T18:05:29,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:46:07
+vglut_JK1873_t016_nrem_to_wake,vglut,JK1873,24153,96612,2019-06-29T19:31:37,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:46:12
+vglut_JK1873_t016_wake_to_nrem,vglut,JK1873,24706,98824,2019-06-29T20:08:29,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:46:34
+vglut_JK1873_t017_nrem_to_wake,vglut,JK1873,26007,104028,2019-06-29T21:35:13,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:46:39
+vglut_JK1873_t017_wake_to_nrem,vglut,JK1873,26372,105488,2019-06-29T21:59:33,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T09:46:45
+vglut_JK1873_t018_nrem_to_wake,vglut,JK1873,26957,107828,2019-06-29T22:38:33,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:46:50
+vglut_JK1873_t019_nrem_to_wake,vglut,JK1873,28833,115332,2019-06-30T00:43:37,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:46:58
+vglut_JK1873_t020_nrem_to_wake,vglut,JK1873,30000,120000,2019-06-30T02:01:25,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:47:05
+vglut_JK1873_t021_nrem_to_wake,vglut,JK1873,31257,125028,2019-06-30T03:25:13,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:47:10
+vglut_JK1873_t021_wake_to_nrem,vglut,JK1873,32209,128836,2019-06-30T04:28:41,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T09:47:17
+vglut_JK1873_t022_nrem_to_wake,vglut,JK1873,32220,128880,2019-06-30T04:29:25,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:47:21
+vglut_JK1873_t023_nrem_to_wake,vglut,JK1873,32738,130952,2019-06-30T05:03:57,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:47:24
+vglut_JK1873_t024_nrem_to_wake,vglut,JK1873,34116,136464,2019-06-30T06:35:49,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:47:35
+vglut_JK1873_t023_wake_to_nrem,vglut,JK1873,34442,137768,2019-06-30T06:57:33,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T09:47:45
+vglut_JK1873_t025_nrem_to_wake,vglut,JK1873,35633,142532,2019-06-30T08:16:57,Wake,Wake,,False,NREM,Wake,,,Unsure,,B,2026-10-06T09:47:59
+vglut_JK1873_t027_nrem_to_wake,vglut,JK1873,38040,152160,2019-06-30T10:57:25,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:48:07
+vglut_JK1873_t026_wake_to_nrem,vglut,JK1873,38159,152636,2019-06-30T11:05:21,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:48:14
+vglut_JK1873_t028_wake_to_nrem,vglut,JK1873,40535,162140,2019-06-30T13:43:45,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:48:17
+vglut_JK1873_t005_rem_involving,vglut,JK1873,41175,164700,2019-06-30T14:26:25,REM,REM,,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T09:48:22
+vglut_JK1873_t029_wake_to_nrem,vglut,JK1873,42072,168288,2019-06-30T15:26:13,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:48:31
+vglut_JK1873_t031_nrem_to_wake,vglut,JK1873,44668,178672,2019-06-30T18:19:17,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:48:45
+vglut_JK1873_t031_wake_to_nrem,vglut,JK1873,45017,180068,2019-06-30T18:42:33,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:48:50
+vglut_JK1873_t033_nrem_to_wake,vglut,JK1873,48562,194248,2019-06-30T22:38:53,NREM,Wake,,True,NREM,Wake,,,Transition,,B,2026-10-06T09:49:01
+vglut_JK1873_t033_wake_to_nrem,vglut,JK1873,48886,195544,2019-06-30T23:00:29,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:49:05
+vglut_JK1873_t034_nrem_to_wake,vglut,JK1873,50451,201804,2019-07-01T00:44:49,NREM,Wake,,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:49:12
+vglut_JK1873_t034_wake_to_nrem,vglut,JK1873,50678,202712,2019-07-01T00:59:57,NREM,NREM,,False,Wake,NREM,,,Unsure,,B,2026-10-06T09:49:21
+vglut_JK1873_t035_nrem_to_wake,vglut,JK1873,51620,206480,2019-07-01T02:02:45,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:49:29
+vglut_JK1873_t035_wake_to_nrem,vglut,JK1873,52368,209472,2019-07-01T02:52:37,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:49:35
+vglut_JK1873_t037_nrem_to_wake,vglut,JK1873,54618,218472,2019-07-01T05:22:37,NREM,Wake,,True,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:49:40
+vglut_JK1873_t037_wake_to_nrem,vglut,JK1873,55651,222604,2019-07-01T06:31:29,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:49:52
+vglut_JK1873_t038_nrem_to_wake,vglut,JK1873,56189,224756,2019-07-01T07:07:21,NREM,Wake,,True,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:49:57
+vglut_JK1873_t038_wake_to_nrem,vglut,JK1873,57307,229228,2019-07-01T08:21:53,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:50:10
+vglut_JK1873_t039_wake_to_nrem,vglut,JK1873,58461,233844,2019-07-01T09:38:49,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T09:50:16
+vglut_JK1873_t041_nrem_to_wake,vglut,JK1873,59788,239152,2019-07-01T11:07:17,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:50:21
+vglut_JK1873_t041_wake_to_nrem,vglut,JK1873,60207,240828,2019-07-01T11:35:13,NREM,NREM,,False,Wake,NREM,REM,NREM,Transition (wrong states),,B,2026-10-06T09:50:39
+vglut_JK1873_t042_nrem_to_wake,vglut,JK1873,60976,243904,2019-07-01T12:26:29,Wake,Wake,,False,NREM,Wake,Wake,NREM,Transition (wrong states),,B,2026-10-06T09:50:59
+vglut_JK1873_t008_rem_involving,vglut,JK1873,61351,245404,2019-07-01T12:51:29,REM,REM,,False,NREM,REM,NREM,NREM,No transition,,B,2026-10-06T09:51:05
+vglut_JK1873_t043_nrem_to_wake,vglut,JK1873,63345,253380,2019-07-01T15:04:25,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:51:18
+vglut_JK1873_t043_wake_to_nrem,vglut,JK1873,63382,253528,2019-07-01T15:06:53,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:51:22
+vglut_JK1873_t044_nrem_to_wake,vglut,JK1873,64796,259184,2019-07-01T16:41:09,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:51:36
+vglut_JK1935_t000_wake_to_nrem,vglut,JK1935,23,92,2019-07-20T12:48:09,NREM,NREM,,False,Wake,NREM,REM,REM,No transition,,B,2026-10-06T09:55:36
+vglut_JK1935_t000_nrem_to_wake,vglut,JK1935,33,132,2019-07-20T12:48:49,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:55:42
+vglut_JK1935_t002_wake_to_nrem,vglut,JK1935,1966,7864,2019-07-20T14:57:41,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:55:46
+vglut_JK1935_t004_nrem_to_wake,vglut,JK1935,4411,17644,2019-07-20T17:40:41,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T09:55:53
+vglut_JK1935_t005_nrem_to_wake,vglut,JK1935,4994,19976,2019-07-20T18:19:33,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:55:56
+vglut_JK1935_t008_wake_to_nrem,vglut,JK1935,12004,48016,2019-07-21T02:06:53,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:56:36
+vglut_JK1935_t002_rem_involving,vglut,JK1935,12487,49948,2019-07-21T02:39:05,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T09:56:48
+vglut_JK1935_t008_nrem_to_wake,vglut,JK1935,12509,50036,2019-07-21T02:40:33,Wake,Wake,,False,NREM,Wake,NREM,NREM,No transition,,B,2026-10-06T09:56:56
+vglut_JK1935_t010_wake_to_nrem,vglut,JK1935,18177,72708,2019-07-21T08:58:25,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:57:33
+vglut_JK1935_t009_nrem_to_wake,vglut,JK1935,18395,73580,2019-07-21T09:12:57,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:57:36
+vglut_JK1935_t010_nrem_to_wake,vglut,JK1935,19213,76852,2019-07-21T10:07:29,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:57:50
+vglut_JK1935_t012_wake_to_nrem,vglut,JK1935,19748,78992,2019-07-21T10:43:09,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:57:52
+vglut_JK1935_t011_nrem_to_wake,vglut,JK1935,19880,79520,2019-07-21T10:51:57,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:57:55
+vglut_JK1935_t013_wake_to_nrem,vglut,JK1935,21377,85508,2019-07-21T12:31:45,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T09:58:01
+vglut_JK1935_t003_rem_involving,vglut,JK1935,21581,86324,2019-07-21T12:45:21,Wake,Wake,,False,REM,Wake,,,Transition,,B,2026-10-06T09:58:10
+vglut_JK1935_t013_nrem_to_wake,vglut,JK1935,21845,87380,2019-07-21T13:02:57,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:58:14
+vglut_JK1935_t014_wake_to_nrem,vglut,JK1935,22025,88100,2019-07-21T13:14:57,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:58:34
+vglut_JK1935_t016_nrem_to_wake,vglut,JK1935,25251,101004,2019-07-21T16:50:01,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:58:42
+vglut_JK1935_t017_wake_to_nrem,vglut,JK1935,25325,101300,2019-07-21T16:54:57,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:58:46
+vglut_JK1935_t017_nrem_to_wake,vglut,JK1935,25525,102100,2019-07-21T17:08:17,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:58:48
+vglut_JK1935_t018_nrem_to_wake,vglut,JK1935,25935,103740,2019-07-21T17:35:37,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:58:52
+vglut_JK1935_t004_rem_involving,vglut,JK1935,26805,107220,2019-07-21T18:33:37,Wake,Wake,,False,REM,Wake,NREM,Wake,Transition (wrong states),,B,2026-10-06T09:59:24
+vglut_JK1935_t019_nrem_to_wake,vglut,JK1935,26828,107312,2019-07-21T18:35:09,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:59:29
+vglut_JK1935_t021_nrem_to_wake,vglut,JK1935,28045,112180,2019-07-21T19:56:17,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:59:32
+vglut_JK1935_t024_wake_to_nrem,vglut,JK1935,35345,141380,2019-07-22T04:02:57,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:59:34
+vglut_JK1935_t025_nrem_to_wake,vglut,JK1935,39176,156704,2019-07-22T08:18:21,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:59:37
+vglut_JK1935_t026_nrem_to_wake,vglut,JK1935,40406,161624,2019-07-22T09:40:21,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:59:41
+vglut_JK1935_t027_wake_to_nrem,vglut,JK1935,41308,165232,2019-07-22T10:40:29,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T09:59:45
+vglut_JK1935_t027_nrem_to_wake,vglut,JK1935,41325,165300,2019-07-22T10:41:37,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:59:48
+vglut_JK1935_t028_nrem_to_wake,vglut,JK1935,41786,167144,2019-07-22T11:12:21,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T09:59:50
+vglut_JK1935_t029_wake_to_nrem,vglut,JK1935,43651,174604,2019-07-22T13:16:41,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T10:00:00
+vglut_JK1935_t030_nrem_to_wake,vglut,JK1935,44668,178672,2019-07-22T14:24:29,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T10:00:03
+vglut_JK1935_t031_wake_to_nrem,vglut,JK1935,45092,180368,2019-07-22T14:52:45,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T10:00:08
+vglut_JK1935_t032_wake_to_nrem,vglut,JK1935,46501,186004,2019-07-22T16:26:41,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T10:00:14
+vglut_JK1935_t032_nrem_to_wake,vglut,JK1935,46697,186788,2019-07-22T16:39:45,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T10:00:21
+vglut_JK1935_t033_wake_to_nrem,vglut,JK1935,47074,188296,2019-07-22T17:04:53,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T10:00:24
+vglut_JK1935_t007_rem_involving,vglut,JK1935,47313,189252,2019-07-22T17:20:49,Wake,Wake,,False,REM,Wake,NREM,Wake,Transition (wrong states),,B,2026-10-06T10:00:36
+vglut_JK1935_t035_wake_to_nrem,vglut,JK1935,48323,193292,2019-07-22T18:28:09,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T10:00:40
+vglut_JK1935_t035_nrem_to_wake,vglut,JK1935,48619,194476,2019-07-22T18:47:53,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T10:00:43
+vglut_JK1935_t037_nrem_to_wake,vglut,JK1935,51421,205684,2019-07-22T21:54:41,Wake,Wake,,False,NREM,Wake,Wake,Wake,No transition,,B,2026-10-06T10:00:55
+vglut_JK1935_t037_wake_to_nrem,vglut,JK1935,51427,205708,2019-07-22T21:55:05,NREM,NREM,,False,Wake,NREM,Wake,Wake,No transition,,B,2026-10-06T10:01:00
+vglut_JK1935_t039_wake_to_nrem,vglut,JK1935,56114,224456,2019-07-23T03:07:33,NREM,NREM,,False,Wake,NREM,,,Transition,,B,2026-10-06T10:01:04
+vglut_JK1935_t008_rem_involving,vglut,JK1935,56265,225060,2019-07-23T03:17:37,Wake,Wake,,False,REM,Wake,Wake,Wake,No transition,,B,2026-10-06T10:01:14
+vglut_JK1935_t043_nrem_to_wake,vglut,JK1935,63234,252936,2019-07-23T11:02:13,Wake,Wake,,False,NREM,Wake,,,Transition,,B,2026-10-06T10:01:19
+vglut_JK1935_t043_wake_to_nrem,vglut,JK1935,63323,253292,2019-07-23T11:08:09,NREM,NREM,,False,Wake,NREM,NREM,NREM,No transition,,B,2026-10-06T10:01:28
